@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T18:48:21+00:00",
+  "generated_at": "2026-09-05T07:54:29+00:00",
   "train": {
     "seed": 7,
     "fingerprint": "64326b4b836746c5"
@@ -34,20 +34,22 @@
   "tier3": {
     "eligible": 5,
     "calls_made": 5,
-    "proposed_match": 1,
-    "insufficient_evidence": 4,
+    "proposed_match": 0,
+    "insufficient_evidence": 5,
     "clamped": 0,
-    "errors": 0,
+    "errors": 5,
     "skipped_above_materiality": 110,
     "skipped_outside_band": 886,
     "capped_not_arbitrated": 0,
     "singleton_groups": 4,
     "chose_unselected_rival": 0,
-    "tokens_in": 8646,
-    "tokens_out": 1492,
+    "tokens_in": 0,
+    "tokens_out": 0,
     "arbiter": "claude_arbiter",
-    "wall_ms": 31072.7,
-    "error_kinds": {}
+    "wall_ms": 2734.2,
+    "error_kinds": {
+      "TypeError": 5
+    }
   },
   "calibration": {
     "n": 479,
@@ -197,8 +199,8 @@
       "label": "Naive rules baseline",
       "scorer": "rules_only",
       "threshold": null,
-      "wall_ms": 17.2,
-      "throughput_txn_per_s": 92680.9,
+      "wall_ms": 18.6,
+      "throughput_txn_per_s": 85628.6,
       "completeness": {
         "complete": null
       },
@@ -547,8 +549,8 @@
       "label": "GlassLedger tier 1 only",
       "scorer": "dummy_heuristic",
       "threshold": 0.85,
-      "wall_ms": 48.2,
-      "throughput_txn_per_s": 33051.3,
+      "wall_ms": 47.3,
+      "throughput_txn_per_s": 33704.8,
       "completeness": {
         "ingested": 1593,
         "accounted_for": 1593,
@@ -856,8 +858,8 @@
       "label": "GlassLedger tier 1+2 (heuristic)",
       "scorer": "dummy_heuristic",
       "threshold": 0.85,
-      "wall_ms": 614.1,
-      "throughput_txn_per_s": 2593.9,
+      "wall_ms": 619.2,
+      "throughput_txn_per_s": 2572.7,
       "completeness": {
         "ingested": 1593,
         "accounted_for": 1593,
@@ -1204,8 +1206,8 @@
       "label": "GlassLedger tier 1+2 (calibrated)",
       "scorer": "calibrated_gbm",
       "threshold": 0.6675,
-      "wall_ms": 503.8,
-      "throughput_txn_per_s": 3162.3,
+      "wall_ms": 545.4,
+      "throughput_txn_per_s": 2920.8,
       "completeness": {
         "ingested": 1593,
         "accounted_for": 1593,
@@ -1550,8 +1552,8 @@
       "label": "GlassLedger tier 1+2+3 (claude_arbiter)",
       "scorer": "calibrated_gbm",
       "threshold": 0.6675,
-      "wall_ms": 31595.0,
-      "throughput_txn_per_s": 50.4,
+      "wall_ms": 3502.0,
+      "throughput_txn_per_s": 454.9,
       "completeness": {
         "ingested": 1593,
         "accounted_for": 1593,
@@ -1569,12 +1571,12 @@
             "f1": 0.9902
           },
           "auto_confirmed_only": {
-            "tp": 295,
+            "tp": 294,
             "fp": 0,
-            "fn": 14,
+            "fn": 15,
             "precision": 1.0,
-            "recall": 0.9547,
-            "f1": 0.9768
+            "recall": 0.9515,
+            "f1": 0.9751
           },
           "money": {
             "reconciled_paise": 582283699,
@@ -1702,8 +1704,8 @@
           },
           "policy": {
             "considered": 264,
-            "auto_confirmed": 255,
-            "proposed": 9,
+            "auto_confirmed": 254,
+            "proposed": 10,
             "rejected": 0,
             "immaterial": 0,
             "tier1_above_materiality": 26,
@@ -1893,20 +1895,22 @@
       "tier3": {
         "eligible": 5,
         "calls_made": 5,
-        "proposed_match": 1,
-        "insufficient_evidence": 4,
+        "proposed_match": 0,
+        "insufficient_evidence": 5,
         "clamped": 0,
-        "errors": 0,
+        "errors": 5,
         "skipped_above_materiality": 110,
         "skipped_outside_band": 886,
         "capped_not_arbitrated": 0,
         "singleton_groups": 4,
         "chose_unselected_rival": 0,
-        "tokens_in": 8646,
-        "tokens_out": 1492,
+        "tokens_in": 0,
+        "tokens_out": 0,
         "arbiter": "claude_arbiter",
-        "wall_ms": 31072.7,
-        "error_kinds": {}
+        "wall_ms": 2734.2,
+        "error_kinds": {
+          "TypeError": 5
+        }
       }
     }
   ],
@@ -1952,7 +1956,7 @@
       "silent_wrong_paise": 0
     },
     "GlassLedger tier 1+2+3 (claude_arbiter)": {
-      "match_rate": 0.9717285945072698,
+      "match_rate": 0.9709208400646203,
       "precision": 0.9951417004048583,
       "recall": 0.9927302100161551,
       "auto_precision": 1.0,
