@@ -1,0 +1,16 @@
+# Runtime
+fastapi>=0.111
+uvicorn>=0.30
+pydantic>=2.7
+numpy>=1.26
+scipy>=1.11            # linear_sum_assignment (Hungarian)
+scikit-learn>=1.5      # HistGradientBoostingClassifier + isotonic calibration
+
+# Tier 3 (optional -- the tier degrades to "ask a human" without a key)
+anthropic>=1.0
+
+# Tests
+pytest>=8.0
+hypothesis>=6.100
+
+# Not required: no database server (SQLite is stdlib), no frontend build step.

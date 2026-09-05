@@ -1,0 +1,3606 @@
+{
+  "entity": "collection",
+  "count": 360,
+  "items": [
+    {
+      "id": "setl_2o8jhjhnakek50",
+      "entity": "settlement",
+      "amount": 1442208,
+      "status": "processed",
+      "fees": 31815,
+      "tax": 5727,
+      "utr": "KKBK260302111241",
+      "created_at": 1772668800
+    },
+    {
+      "id": "setl_543rrc8pa50xhc",
+      "entity": "settlement",
+      "amount": 49900,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "KKBK260302995841",
+      "created_at": 1772668800
+    },
+    {
+      "id": "setl_6zeuq00j0qnj7k",
+      "entity": "settlement",
+      "amount": 99900,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "SBIN260302276032",
+      "created_at": 1772668800
+    },
+    {
+      "id": "setl_7rty87tndfhqvd",
+      "entity": "settlement",
+      "amount": 99850,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "KKBK260302237609",
+      "created_at": 1772668800
+    },
+    {
+      "id": "setl_c6ndxn44cffsft",
+      "entity": "settlement",
+      "amount": 14370390,
+      "status": "processed",
+      "fees": 59196,
+      "tax": 10654,
+      "utr": "HDFC260302562000",
+      "created_at": 1772668800
+    },
+    {
+      "id": "setl_gs58zzpxtomqa0",
+      "entity": "settlement",
+      "amount": 974532,
+      "status": "processed",
+      "fees": 21498,
+      "tax": 3870,
+      "utr": "KKBK260302286106",
+      "created_at": 1772668800
+    },
+    {
+      "id": "setl_r8o5qrqvhttscd",
+      "entity": "settlement",
+      "amount": 929800,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "ICIC260302207689",
+      "created_at": 1772668800
+    },
+    {
+      "id": "setl_rldosmxvfibjp1",
+      "entity": "settlement",
+      "amount": 2539693,
+      "status": "processed",
+      "fees": 54752,
+      "tax": 9855,
+      "utr": "ICIC260302709111",
+      "created_at": 1772668800
+    },
+    {
+      "id": "setl_rtdb3k0o15cfqd",
+      "entity": "settlement",
+      "amount": 3634671,
+      "status": "processed",
+      "fees": 54178,
+      "tax": 9751,
+      "utr": "HDFC260302262865",
+      "created_at": 1772668800
+    },
+    {
+      "id": "setl_veaybljehdkuph",
+      "entity": "settlement",
+      "amount": 7835471,
+      "status": "processed",
+      "fees": 180836,
+      "tax": 32550,
+      "utr": "UTIB260302427777",
+      "created_at": 1772668800
+    },
+    {
+      "id": "setl_ythdlc9q9cn84q",
+      "entity": "settlement",
+      "amount": 1169950,
+      "status": "processed",
+      "fees": 25296,
+      "tax": 4554,
+      "utr": "HDFC260302275991",
+      "created_at": 1772668800
+    },
+    {
+      "id": "setl_0v21kd60htple0",
+      "entity": "settlement",
+      "amount": 9034643,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "UTIB260303892294",
+      "created_at": 1772755200
+    },
+    {
+      "id": "setl_16tq45z9sjfdr6",
+      "entity": "settlement",
+      "amount": 901242,
+      "status": "processed",
+      "fees": -1349,
+      "tax": -243,
+      "utr": "UTIB260303451709",
+      "created_at": 1772755200
+    },
+    {
+      "id": "setl_2wqbwrnk0vecif",
+      "entity": "settlement",
+      "amount": -8167184,
+      "status": "reversed",
+      "fees": 12846,
+      "tax": 2313,
+      "utr": "KKBK260304578280",
+      "created_at": 1772755200
+    },
+    {
+      "id": "setl_3xayms2dfh9uu1",
+      "entity": "settlement",
+      "amount": 126604,
+      "status": "processed",
+      "fees": 2793,
+      "tax": 503,
+      "utr": "UTIB260303341090",
+      "created_at": 1772755200
+    },
+    {
+      "id": "setl_6jbht1s5nsr3uq",
+      "entity": "settlement",
+      "amount": 244297,
+      "status": "processed",
+      "fees": 4748,
+      "tax": 855,
+      "utr": "UTIB260304871559",
+      "created_at": 1772755200
+    },
+    {
+      "id": "setl_6rhdlin7sgsrss",
+      "entity": "settlement",
+      "amount": 2193920,
+      "status": "processed",
+      "fees": 29983,
+      "tax": 5397,
+      "utr": "SBIN260303119580",
+      "created_at": 1772755200
+    },
+    {
+      "id": "setl_8dkf8xo8xquugw",
+      "entity": "settlement",
+      "amount": 571546,
+      "status": "processed",
+      "fees": 20245,
+      "tax": 3644,
+      "utr": "UTIB260304769699",
+      "created_at": 1772755200
+    },
+    {
+      "id": "setl_8pn492375vfb1c",
+      "entity": "settlement",
+      "amount": 8790968,
+      "status": "processed",
+      "fees": 146820,
+      "tax": 26428,
+      "utr": "UTIB260303556366",
+      "created_at": 1772755200
+    },
+    {
+      "id": "setl_8wfuiq6i9xvgo6",
+      "entity": "settlement",
+      "amount": 714849,
+      "status": "processed",
+      "fees": 17035,
+      "tax": 3066,
+      "utr": "HDFC260304959773",
+      "created_at": 1772755200
+    },
+    {
+      "id": "setl_9pazhbs6dt4t76",
+      "entity": "settlement",
+      "amount": 1408103,
+      "status": "processed",
+      "fees": 33601,
+      "tax": 6048,
+      "utr": "HDFC260303927021",
+      "created_at": 1772755200
+    },
+    {
+      "id": "setl_atr5jvy1zrhhva",
+      "entity": "settlement",
+      "amount": 2992476,
+      "status": "processed",
+      "fees": 5698,
+      "tax": 1026,
+      "utr": "ICIC260303856857",
+      "created_at": 1772755200
+    },
+    {
+      "id": "setl_commyu51167vii",
+      "entity": "settlement",
+      "amount": 278291,
+      "status": "processed",
+      "fees": 7741,
+      "tax": 1393,
+      "utr": "HDFC260303668797",
+      "created_at": 1772755200
+    },
+    {
+      "id": "setl_ef4w5vuqlsf8qi",
+      "entity": "settlement",
+      "amount": 1257118,
+      "status": "processed",
+      "fees": 26822,
+      "tax": 4828,
+      "utr": "SBIN260304952906",
+      "created_at": 1772755200
+    },
+    {
+      "id": "setl_h1euxn89whi3nn",
+      "entity": "settlement",
+      "amount": 698653,
+      "status": "processed",
+      "fees": 30608,
+      "tax": 5511,
+      "utr": "KKBK260304568933",
+      "created_at": 1772755200
+    },
+    {
+      "id": "setl_j41irg10yietqj",
+      "entity": "settlement",
+      "amount": 9151625,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "KKBK260304436080",
+      "created_at": 1772755200
+    },
+    {
+      "id": "setl_jeezogkjnu8s91",
+      "entity": "settlement",
+      "amount": 783137,
+      "status": "processed",
+      "fees": 15346,
+      "tax": 2762,
+      "utr": "KKBK260304985959",
+      "created_at": 1772755200
+    },
+    {
+      "id": "setl_jihi7h5k30ygql",
+      "entity": "settlement",
+      "amount": 1876304,
+      "status": "processed",
+      "fees": 2793,
+      "tax": 503,
+      "utr": "ICIC260304658053",
+      "created_at": 1772755200
+    },
+    {
+      "id": "setl_mf4rcyc3pu1x8m",
+      "entity": "settlement",
+      "amount": 235825,
+      "status": "processed",
+      "fees": 8353,
+      "tax": 1504,
+      "utr": "ICIC260304455349",
+      "created_at": 1772755200
+    },
+    {
+      "id": "setl_ngy02197zlrcom",
+      "entity": "settlement",
+      "amount": 199121,
+      "status": "processed",
+      "fees": 660,
+      "tax": 119,
+      "utr": "UTIB260303768422",
+      "created_at": 1772755200
+    },
+    {
+      "id": "setl_qb690mxefmiszv",
+      "entity": "settlement",
+      "amount": 125914,
+      "status": "processed",
+      "fees": 3378,
+      "tax": 608,
+      "utr": "SBIN260304630356",
+      "created_at": 1772755200
+    },
+    {
+      "id": "setl_qdyg5359ns6jgx",
+      "entity": "settlement",
+      "amount": -696036,
+      "status": "reversed",
+      "fees": 16956,
+      "tax": 3052,
+      "utr": "ICIC260304494069",
+      "created_at": 1772755200
+    },
+    {
+      "id": "setl_qveevv0c2ckagx",
+      "entity": "settlement",
+      "amount": 1743260,
+      "status": "processed",
+      "fees": 5373,
+      "tax": 967,
+      "utr": "KKBK260304935948",
+      "created_at": 1772755200
+    },
+    {
+      "id": "setl_tgxi6227k6u4zu",
+      "entity": "settlement",
+      "amount": 2141535,
+      "status": "processed",
+      "fees": 31316,
+      "tax": 5637,
+      "utr": "HDFC260304946616",
+      "created_at": 1772755200
+    },
+    {
+      "id": "setl_uajwkvu8aak3no",
+      "entity": "settlement",
+      "amount": 1091146,
+      "status": "processed",
+      "fees": 24071,
+      "tax": 4333,
+      "utr": "KKBK260303953633",
+      "created_at": 1772755200
+    },
+    {
+      "id": "setl_xh8y7jby547fo9",
+      "entity": "settlement",
+      "amount": 2908578,
+      "status": "processed",
+      "fees": 60460,
+      "tax": 10883,
+      "utr": "KKBK260303530897",
+      "created_at": 1772755200
+    },
+    {
+      "id": "setl_xn663w3mw8e1vb",
+      "entity": "settlement",
+      "amount": 3462673,
+      "status": "processed",
+      "fees": 13794,
+      "tax": 2483,
+      "utr": "HDFC260304760755",
+      "created_at": 1772755200
+    },
+    {
+      "id": "setl_2e60uijenzgzsw",
+      "entity": "settlement",
+      "amount": 623778,
+      "status": "processed",
+      "fees": 22095,
+      "tax": 3977,
+      "utr": "UTIB260305368857",
+      "created_at": 1773014400
+    },
+    {
+      "id": "setl_47b7rsa6d2oi74",
+      "entity": "settlement",
+      "amount": 342191,
+      "status": "processed",
+      "fees": 6448,
+      "tax": 1161,
+      "utr": "SBIN260305145578",
+      "created_at": 1773014400
+    },
+    {
+      "id": "setl_6gyhadf98gp226",
+      "entity": "settlement",
+      "amount": 1571312,
+      "status": "processed",
+      "fees": 15541,
+      "tax": 2797,
+      "utr": "HDFC260305396099",
+      "created_at": 1773014400
+    },
+    {
+      "id": "setl_721hzgf6l7pkdj",
+      "entity": "settlement",
+      "amount": 389090,
+      "status": "processed",
+      "fees": 9076,
+      "tax": 1634,
+      "utr": "SBIN260305542133",
+      "created_at": 1773014400
+    },
+    {
+      "id": "setl_90xhjrwpa23w2w",
+      "entity": "settlement",
+      "amount": 175238,
+      "status": "processed",
+      "fees": 3866,
+      "tax": 696,
+      "utr": "HDFC260305245779",
+      "created_at": 1773014400
+    },
+    {
+      "id": "setl_9njmjqoqtap93i",
+      "entity": "settlement",
+      "amount": 1834380,
+      "status": "processed",
+      "fees": 12898,
+      "tax": 2322,
+      "utr": "SBIN260305682151",
+      "created_at": 1773014400
+    },
+    {
+      "id": "setl_czx0l46yj5rklm",
+      "entity": "settlement",
+      "amount": 244297,
+      "status": "processed",
+      "fees": 4748,
+      "tax": 855,
+      "utr": "SBIN260305433140",
+      "created_at": 1773014400
+    },
+    {
+      "id": "setl_edfgd6muvy2lq3",
+      "entity": "settlement",
+      "amount": 1785588,
+      "status": "processed",
+      "fees": 11832,
+      "tax": 2130,
+      "utr": "UTIB260305335683",
+      "created_at": 1773014400
+    },
+    {
+      "id": "setl_irefqok4abcamj",
+      "entity": "settlement",
+      "amount": 349900,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "UTIB260305376762",
+      "created_at": 1773014400
+    },
+    {
+      "id": "setl_j4izncdblcqbtd",
+      "entity": "settlement",
+      "amount": 339990,
+      "status": "processed",
+      "fees": 8398,
+      "tax": 1512,
+      "utr": "KKBK260305939332",
+      "created_at": 1773014400
+    },
+    {
+      "id": "setl_jlts0oppa6k114",
+      "entity": "settlement",
+      "amount": 2021631,
+      "status": "processed",
+      "fees": 48254,
+      "tax": 8686,
+      "utr": "ICIC260305915936",
+      "created_at": 1773014400
+    },
+    {
+      "id": "setl_pob1d6asmfvs6a",
+      "entity": "settlement",
+      "amount": 239850,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "HDFC260305450930",
+      "created_at": 1773014400
+    },
+    {
+      "id": "setl_q1i9v9rm2bvgjf",
+      "entity": "settlement",
+      "amount": 1120629,
+      "status": "processed",
+      "fees": 24721,
+      "tax": 4450,
+      "utr": "KKBK260305306670",
+      "created_at": 1773014400
+    },
+    {
+      "id": "setl_qa8lpqkje70o5b",
+      "entity": "settlement",
+      "amount": 730680,
+      "status": "processed",
+      "fees": 16118,
+      "tax": 2902,
+      "utr": "HDFC260305813911",
+      "created_at": 1773014400
+    },
+    {
+      "id": "setl_txno3l49uw3h8i",
+      "entity": "settlement",
+      "amount": 48781,
+      "status": "processed",
+      "fees": 948,
+      "tax": 171,
+      "utr": "HDFC260305673381",
+      "created_at": 1773014400
+    },
+    {
+      "id": "setl_uzkki7qqg5ay1r",
+      "entity": "settlement",
+      "amount": 243560,
+      "status": "processed",
+      "fees": 5373,
+      "tax": 967,
+      "utr": "KKBK260305257373",
+      "created_at": 1773014400
+    },
+    {
+      "id": "setl_vemscqo1kybnw9",
+      "entity": "settlement",
+      "amount": 3806569,
+      "status": "processed",
+      "fees": 78407,
+      "tax": 14113,
+      "utr": "HDFC260305761304",
+      "created_at": 1773014400
+    },
+    {
+      "id": "setl_yikfm8cd88xrj2",
+      "entity": "settlement",
+      "amount": 487217,
+      "status": "processed",
+      "fees": 10748,
+      "tax": 1935,
+      "utr": "KKBK260305921060",
+      "created_at": 1773014400
+    },
+    {
+      "id": "setl_1g19zlwqgccvj9",
+      "entity": "settlement",
+      "amount": 8526478,
+      "status": "processed",
+      "fees": 158318,
+      "tax": 28497,
+      "utr": "HDFC260307400501",
+      "created_at": 1773100800
+    },
+    {
+      "id": "setl_1pzpru7y6behnl",
+      "entity": "settlement",
+      "amount": 2262146,
+      "status": "processed",
+      "fees": 40088,
+      "tax": 7216,
+      "utr": "HDFC260308970189",
+      "created_at": 1773100800
+    },
+    {
+      "id": "setl_3q98z5n664vr9g",
+      "entity": "settlement",
+      "amount": 1478306,
+      "status": "processed",
+      "fees": 18046,
+      "tax": 3248,
+      "utr": "UTIB260306456902",
+      "created_at": 1773100800
+    },
+    {
+      "id": "setl_410gjl0otcraw8",
+      "entity": "settlement",
+      "amount": 575832,
+      "status": "processed",
+      "fees": 20397,
+      "tax": 3671,
+      "utr": "HDFC260308681169",
+      "created_at": 1773100800
+    },
+    {
+      "id": "setl_4mfxo64v3253pr",
+      "entity": "settlement",
+      "amount": 199900,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "ICIC260306742271",
+      "created_at": 1773100800
+    },
+    {
+      "id": "setl_52w1zrc4ashvvo",
+      "entity": "settlement",
+      "amount": 15880522,
+      "status": "processed",
+      "fees": 261796,
+      "tax": 47122,
+      "utr": "UTIB260306361847",
+      "created_at": 1773100800
+    },
+    {
+      "id": "setl_6b48c9fqbckx5u",
+      "entity": "settlement",
+      "amount": 1084483,
+      "status": "processed",
+      "fees": 12896,
+      "tax": 2321,
+      "utr": "SBIN260306637931",
+      "created_at": 1773100800
+    },
+    {
+      "id": "setl_6ram5rl7t3z9nr",
+      "entity": "settlement",
+      "amount": 279800,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "ICIC260306463948",
+      "created_at": 1773100800
+    },
+    {
+      "id": "setl_7odqmhzwv8h6xj",
+      "entity": "settlement",
+      "amount": 329844,
+      "status": "processed",
+      "fees": 11683,
+      "tax": 2103,
+      "utr": "KKBK260306758215",
+      "created_at": 1773100800
+    },
+    {
+      "id": "setl_8ien6p2llch8p4",
+      "entity": "settlement",
+      "amount": 25500721,
+      "status": "processed",
+      "fees": 289027,
+      "tax": 52024,
+      "utr": "HDFC260306705235",
+      "created_at": 1773100800
+    },
+    {
+      "id": "setl_8zxc8toioczy9v",
+      "entity": "settlement",
+      "amount": 1918729,
+      "status": "processed",
+      "fees": 25992,
+      "tax": 4679,
+      "utr": "UTIB260306874011",
+      "created_at": 1773100800
+    },
+    {
+      "id": "setl_9gbucvj0ojyln2",
+      "entity": "settlement",
+      "amount": 3352559,
+      "status": "processed",
+      "fees": 1518,
+      "tax": 273,
+      "utr": "HDFC260308421527",
+      "created_at": 1773100800
+    },
+    {
+      "id": "setl_aos3c8ldnclblo",
+      "entity": "settlement",
+      "amount": 14613097,
+      "status": "processed",
+      "fees": 294821,
+      "tax": 53069,
+      "utr": "KKBK260307589258",
+      "created_at": 1773100800
+    },
+    {
+      "id": "setl_h8cyr4c20t1xul",
+      "entity": "settlement",
+      "amount": 488269,
+      "status": "processed",
+      "fees": 9772,
+      "tax": 1759,
+      "utr": "UTIB260306572805",
+      "created_at": 1773100800
+    },
+    {
+      "id": "setl_ju1ak3z6ei9wgr",
+      "entity": "settlement",
+      "amount": 1374650,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "KKBK260306047885",
+      "created_at": 1773100800
+    },
+    {
+      "id": "setl_keg7vfsnt61z17",
+      "entity": "settlement",
+      "amount": 847649,
+      "status": "processed",
+      "fees": 1691,
+      "tax": 304,
+      "utr": "ICIC260306818426",
+      "created_at": 1773100800
+    },
+    {
+      "id": "setl_lniiyap22tag1b",
+      "entity": "settlement",
+      "amount": 470837,
+      "status": "processed",
+      "fees": 14015,
+      "tax": 2523,
+      "utr": "HDFC260306572743",
+      "created_at": 1773100800
+    },
+    {
+      "id": "setl_n11rbra2gcb919",
+      "entity": "settlement",
+      "amount": 1219163,
+      "status": "processed",
+      "fees": 25794,
+      "tax": 4643,
+      "utr": "ICIC260307593002",
+      "created_at": 1773100800
+    },
+    {
+      "id": "setl_n9e6gu607209z2",
+      "entity": "settlement",
+      "amount": -7706,
+      "status": "reversed",
+      "fees": 6446,
+      "tax": 1160,
+      "utr": "HDFC260306049279",
+      "created_at": 1773100800
+    },
+    {
+      "id": "setl_nr0nnno16zmdie",
+      "entity": "settlement",
+      "amount": 24950,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "KKBK260307253837",
+      "created_at": 1773100800
+    },
+    {
+      "id": "setl_nriu090aiuyi28",
+      "entity": "settlement",
+      "amount": 940923,
+      "status": "processed",
+      "fees": 7523,
+      "tax": 1354,
+      "utr": "HDFC260306863955",
+      "created_at": 1773100800
+    },
+    {
+      "id": "setl_q6hhgigt2fr7t6",
+      "entity": "settlement",
+      "amount": 299900,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "KKBK260308005988",
+      "created_at": 1773100800
+    },
+    {
+      "id": "setl_qcr1vll7661efs",
+      "entity": "settlement",
+      "amount": 243560,
+      "status": "processed",
+      "fees": 5373,
+      "tax": 967,
+      "utr": "ICIC260308698310",
+      "created_at": 1773100800
+    },
+    {
+      "id": "setl_r3qdpa6hjafzan",
+      "entity": "settlement",
+      "amount": 855610,
+      "status": "processed",
+      "fees": 20500,
+      "tax": 3690,
+      "utr": "SBIN260306771083",
+      "created_at": 1773100800
+    },
+    {
+      "id": "setl_t8c6oks6x0ym2v",
+      "entity": "settlement",
+      "amount": 3485668,
+      "status": "processed",
+      "fees": 36934,
+      "tax": 6648,
+      "utr": "ICIC260306992840",
+      "created_at": 1773100800
+    },
+    {
+      "id": "setl_uh2vnojr5xtebh",
+      "entity": "settlement",
+      "amount": 342055,
+      "status": "processed",
+      "fees": 6648,
+      "tax": 1197,
+      "utr": "KKBK260306627415",
+      "created_at": 1773100800
+    },
+    {
+      "id": "setl_ulox3ltvu3mzao",
+      "entity": "settlement",
+      "amount": 780362,
+      "status": "processed",
+      "fees": 16558,
+      "tax": 2980,
+      "utr": "UTIB260306165675",
+      "created_at": 1773100800
+    },
+    {
+      "id": "setl_utzwjzjjf99dz5",
+      "entity": "settlement",
+      "amount": 349900,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "UTIB260306650834",
+      "created_at": 1773100800
+    },
+    {
+      "id": "setl_x95ub5jbxy4uo8",
+      "entity": "settlement",
+      "amount": 830677,
+      "status": "processed",
+      "fees": 16121,
+      "tax": 2902,
+      "utr": "ICIC260308354964",
+      "created_at": 1773100800
+    },
+    {
+      "id": "setl_xylqbaf6y66tuz",
+      "entity": "settlement",
+      "amount": 1769411,
+      "status": "processed",
+      "fees": 4186,
+      "tax": 753,
+      "utr": "UTIB260306022942",
+      "created_at": 1773100800
+    },
+    {
+      "id": "setl_zlhgze7usvj9v3",
+      "entity": "settlement",
+      "amount": 449900,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "ICIC260306250060",
+      "created_at": 1773100800
+    },
+    {
+      "id": "setl_457an7nii4ungj",
+      "entity": "settlement",
+      "amount": 249900,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "ICIC260309358816",
+      "created_at": 1773187200
+    },
+    {
+      "id": "setl_4rciig4krui5nm",
+      "entity": "settlement",
+      "amount": 194828,
+      "status": "processed",
+      "fees": 4298,
+      "tax": 774,
+      "utr": "UTIB260309646728",
+      "created_at": 1773187200
+    },
+    {
+      "id": "setl_8fdyefm44sfw48",
+      "entity": "settlement",
+      "amount": 999900,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "HDFC260309239839",
+      "created_at": 1773187200
+    },
+    {
+      "id": "setl_96k637lz5z1fe9",
+      "entity": "settlement",
+      "amount": 3049893,
+      "status": "processed",
+      "fees": 71404,
+      "tax": 12853,
+      "utr": "KKBK260309929876",
+      "created_at": 1773187200
+    },
+    {
+      "id": "setl_b2ag8bpzu8p5jn",
+      "entity": "settlement",
+      "amount": 10158702,
+      "status": "processed",
+      "fees": 240572,
+      "tax": 43303,
+      "utr": "SBIN260309361565",
+      "created_at": 1773187200
+    },
+    {
+      "id": "setl_bgrrjkc573gc85",
+      "entity": "settlement",
+      "amount": 129900,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "UTIB260309693866",
+      "created_at": 1773187200
+    },
+    {
+      "id": "setl_dc3nkg1om5xuqs",
+      "entity": "settlement",
+      "amount": 1243461,
+      "status": "processed",
+      "fees": 5503,
+      "tax": 991,
+      "utr": "ICIC260309125271",
+      "created_at": 1773187200
+    },
+    {
+      "id": "setl_dy6z869dwsdztk",
+      "entity": "settlement",
+      "amount": 1249800,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "ICIC260309133810",
+      "created_at": 1773187200
+    },
+    {
+      "id": "setl_euiw5f4jaak47e",
+      "entity": "settlement",
+      "amount": 97365,
+      "status": "processed",
+      "fees": 2148,
+      "tax": 387,
+      "utr": "SBIN260309231981",
+      "created_at": 1773187200
+    },
+    {
+      "id": "setl_fa56v8vu910hiu",
+      "entity": "settlement",
+      "amount": 549800,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "ICIC260309464233",
+      "created_at": 1773187200
+    },
+    {
+      "id": "setl_khxebxmmw5xe1t",
+      "entity": "settlement",
+      "amount": 299900,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "HDFC260309802698",
+      "created_at": 1773187200
+    },
+    {
+      "id": "setl_lo0h7bvgkpq0f9",
+      "entity": "settlement",
+      "amount": 159800,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "HDFC260309617211",
+      "created_at": 1773187200
+    },
+    {
+      "id": "setl_oidgz6189rhknm",
+      "entity": "settlement",
+      "amount": 214850,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "UTIB260309460653",
+      "created_at": 1773187200
+    },
+    {
+      "id": "setl_pxkdxev1tdru0m",
+      "entity": "settlement",
+      "amount": 1256279,
+      "status": "processed",
+      "fees": 19764,
+      "tax": 3557,
+      "utr": "HDFC260309031966",
+      "created_at": 1773187200
+    },
+    {
+      "id": "setl_ui7cmlfh2xcd1s",
+      "entity": "settlement",
+      "amount": 4174568,
+      "status": "processed",
+      "fees": 20578,
+      "tax": 3704,
+      "utr": "KKBK260309153697",
+      "created_at": 1773187200
+    },
+    {
+      "id": "setl_v8s88dtw6p1jmo",
+      "entity": "settlement",
+      "amount": 129900,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "KKBK260309473134",
+      "created_at": 1773187200
+    },
+    {
+      "id": "setl_z6cxielscd5jt6",
+      "entity": "settlement",
+      "amount": 1050791,
+      "status": "processed",
+      "fees": -840,
+      "tax": -151,
+      "utr": "UTIB260309166785",
+      "created_at": 1773187200
+    },
+    {
+      "id": "setl_1mnlzd2rppnmrd",
+      "entity": "settlement",
+      "amount": -75025,
+      "status": "reversed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "UTIB260310477516",
+      "created_at": 1773273600
+    },
+    {
+      "id": "setl_2x3cv4c004t6qr",
+      "entity": "settlement",
+      "amount": 665751,
+      "status": "processed",
+      "fees": 11821,
+      "tax": 2128,
+      "utr": "UTIB260310925363",
+      "created_at": 1773273600
+    },
+    {
+      "id": "setl_41vmefc60o5tyb",
+      "entity": "settlement",
+      "amount": 560266,
+      "status": "processed",
+      "fees": 12359,
+      "tax": 2225,
+      "utr": "HDFC260310287233",
+      "created_at": 1773273600
+    },
+    {
+      "id": "setl_4up4lcxm8arnio",
+      "entity": "settlement",
+      "amount": 99900,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "SBIN260310281303",
+      "created_at": 1773273600
+    },
+    {
+      "id": "setl_aowth7pu522la7",
+      "entity": "settlement",
+      "amount": 549800,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "SBIN260310973733",
+      "created_at": 1773273600
+    },
+    {
+      "id": "setl_b23sdkv1xyz055",
+      "entity": "settlement",
+      "amount": 119850,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "ICIC260310382146",
+      "created_at": 1773273600
+    },
+    {
+      "id": "setl_bbcsdtedw6zct7",
+      "entity": "settlement",
+      "amount": 480650,
+      "status": "processed",
+      "fees": -720,
+      "tax": -130,
+      "utr": "ICIC260310033367",
+      "created_at": 1773273600
+    },
+    {
+      "id": "setl_bmlfsmkj1nyz33",
+      "entity": "settlement",
+      "amount": 248976,
+      "status": "processed",
+      "fees": 698,
+      "tax": 126,
+      "utr": "HDFC260310537241",
+      "created_at": 1773273600
+    },
+    {
+      "id": "setl_bqntytj50h5pdu",
+      "entity": "settlement",
+      "amount": 1038288,
+      "status": "processed",
+      "fees": 9671,
+      "tax": 1741,
+      "utr": "KKBK260310270551",
+      "created_at": 1773273600
+    },
+    {
+      "id": "setl_cq2ikdo7dob8su",
+      "entity": "settlement",
+      "amount": 4780662,
+      "status": "processed",
+      "fees": 51893,
+      "tax": 9341,
+      "utr": "UTIB260310755208",
+      "created_at": 1773273600
+    },
+    {
+      "id": "setl_fjcxe69h6ay12w",
+      "entity": "settlement",
+      "amount": 146539,
+      "status": "processed",
+      "fees": 2848,
+      "tax": 513,
+      "utr": "ICIC260310327316",
+      "created_at": 1773273600
+    },
+    {
+      "id": "setl_hmnsgdoiazk3vn",
+      "entity": "settlement",
+      "amount": 1849492,
+      "status": "processed",
+      "fees": 12549,
+      "tax": 2259,
+      "utr": "HDFC260310696344",
+      "created_at": 1773273600
+    },
+    {
+      "id": "setl_mmycdg9fpoqy04",
+      "entity": "settlement",
+      "amount": 537523,
+      "status": "processed",
+      "fees": 10447,
+      "tax": 1880,
+      "utr": "ICIC260310583191",
+      "created_at": 1773273600
+    },
+    {
+      "id": "setl_nq0nqzqxvwosrx",
+      "entity": "settlement",
+      "amount": 720885,
+      "status": "processed",
+      "fees": 15903,
+      "tax": 2862,
+      "utr": "HDFC260310768238",
+      "created_at": 1773273600
+    },
+    {
+      "id": "setl_nqbg8k7h0pyavr",
+      "entity": "settlement",
+      "amount": 79900,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "UTIB260310990825",
+      "created_at": 1773273600
+    },
+    {
+      "id": "setl_pmg241azf6lwi9",
+      "entity": "settlement",
+      "amount": 11248406,
+      "status": "processed",
+      "fees": 32760,
+      "tax": 5897,
+      "utr": "KKBK260310451396",
+      "created_at": 1773273600
+    },
+    {
+      "id": "setl_tq02bcs10zmsud",
+      "entity": "settlement",
+      "amount": 127218,
+      "status": "processed",
+      "fees": 2273,
+      "tax": 409,
+      "utr": "UTIB260310029074",
+      "created_at": 1773273600
+    },
+    {
+      "id": "setl_unq4v64c67h2yx",
+      "entity": "settlement",
+      "amount": 316953,
+      "status": "processed",
+      "fees": 6607,
+      "tax": 1190,
+      "utr": "ICIC260310592431",
+      "created_at": 1773273600
+    },
+    {
+      "id": "setl_xzlua4nxuujzh6",
+      "entity": "settlement",
+      "amount": 1099850,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "SBIN260310873247",
+      "created_at": 1773273600
+    },
+    {
+      "id": "setl_yl6ca1evgmmsew",
+      "entity": "settlement",
+      "amount": 342055,
+      "status": "processed",
+      "fees": 6648,
+      "tax": 1197,
+      "utr": "KKBK260310688623",
+      "created_at": 1773273600
+    },
+    {
+      "id": "setl_36py3hi0dbs00v",
+      "entity": "settlement",
+      "amount": 1565750,
+      "status": "processed",
+      "fees": 11568,
+      "tax": 2082,
+      "utr": "SBIN260311675457",
+      "created_at": 1773360000
+    },
+    {
+      "id": "setl_6bn2zcj4e6ortd",
+      "entity": "settlement",
+      "amount": 767808,
+      "status": "processed",
+      "fees": 27197,
+      "tax": 4895,
+      "utr": "ICIC260311825910",
+      "created_at": 1773360000
+    },
+    {
+      "id": "setl_75j96r0d22vkyb",
+      "entity": "settlement",
+      "amount": 754706,
+      "status": "processed",
+      "fees": 17135,
+      "tax": 3084,
+      "utr": "HDFC260311900049",
+      "created_at": 1773360000
+    },
+    {
+      "id": "setl_7f3a1wxnshf5i0",
+      "entity": "settlement",
+      "amount": 1149750,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "UTIB260311265618",
+      "created_at": 1773360000
+    },
+    {
+      "id": "setl_9bh5bfn1nevqrc",
+      "entity": "settlement",
+      "amount": 99511,
+      "status": "processed",
+      "fees": 330,
+      "tax": 59,
+      "utr": "KKBK260311439787",
+      "created_at": 1773360000
+    },
+    {
+      "id": "setl_a0uzaesji6lggj",
+      "entity": "settlement",
+      "amount": 49900,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "UTIB260311284916",
+      "created_at": 1773360000
+    },
+    {
+      "id": "setl_avyba76j9nzqe7",
+      "entity": "settlement",
+      "amount": 9313838,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "KKBK260311884595",
+      "created_at": 1773360000
+    },
+    {
+      "id": "setl_b6vio5etrt4jtf",
+      "entity": "settlement",
+      "amount": 1884530,
+      "status": "processed",
+      "fees": 12898,
+      "tax": 2322,
+      "utr": "SBIN260311944774",
+      "created_at": 1773360000
+    },
+    {
+      "id": "setl_cwlljjoelne79v",
+      "entity": "settlement",
+      "amount": 1603252,
+      "status": "processed",
+      "fees": 9490,
+      "tax": 1708,
+      "utr": "ICIC260311731706",
+      "created_at": 1773360000
+    },
+    {
+      "id": "setl_cwwxuaslsyqvt8",
+      "entity": "settlement",
+      "amount": 299900,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "UTIB260311591990",
+      "created_at": 1773360000
+    },
+    {
+      "id": "setl_enkfe1qk2qxfal",
+      "entity": "settlement",
+      "amount": 6946679,
+      "status": "processed",
+      "fees": 134189,
+      "tax": 24153,
+      "utr": "HDFC260311974067",
+      "created_at": 1773360000
+    },
+    {
+      "id": "setl_fnsby6fihiuaw2",
+      "entity": "settlement",
+      "amount": 249546,
+      "status": "processed",
+      "fees": 300,
+      "tax": 54,
+      "utr": "UTIB260311763975",
+      "created_at": 1773360000
+    },
+    {
+      "id": "setl_iymedjz8b2f4qj",
+      "entity": "settlement",
+      "amount": 97365,
+      "status": "processed",
+      "fees": 2148,
+      "tax": 387,
+      "utr": "HDFC260311829612",
+      "created_at": 1773360000
+    },
+    {
+      "id": "setl_m4s9fmr4up6wvd",
+      "entity": "settlement",
+      "amount": 638555,
+      "status": "processed",
+      "fees": 9445,
+      "tax": 1700,
+      "utr": "HDFC260311470086",
+      "created_at": 1773360000
+    },
+    {
+      "id": "setl_oe1j2w3e1h72aj",
+      "entity": "settlement",
+      "amount": 1193776,
+      "status": "processed",
+      "fees": 26334,
+      "tax": 4740,
+      "utr": "KKBK260311294675",
+      "created_at": 1773360000
+    },
+    {
+      "id": "setl_pbtnaes6jnw5w1",
+      "entity": "settlement",
+      "amount": 889713,
+      "status": "processed",
+      "fees": 8548,
+      "tax": 1539,
+      "utr": "UTIB260311264486",
+      "created_at": 1773360000
+    },
+    {
+      "id": "setl_tjf3u2poui40li",
+      "entity": "settlement",
+      "amount": 293128,
+      "status": "processed",
+      "fees": 5697,
+      "tax": 1025,
+      "utr": "UTIB260311263051",
+      "created_at": 1773360000
+    },
+    {
+      "id": "setl_tmn1ordjz6tmv2",
+      "entity": "settlement",
+      "amount": 97365,
+      "status": "processed",
+      "fees": 2148,
+      "tax": 387,
+      "utr": "HDFC260311043694",
+      "created_at": 1773360000
+    },
+    {
+      "id": "setl_tnp4kpxlr537so",
+      "entity": "settlement",
+      "amount": 1052405,
+      "status": "processed",
+      "fees": 23216,
+      "tax": 4179,
+      "utr": "ICIC260311392657",
+      "created_at": 1773360000
+    },
+    {
+      "id": "setl_voawrmvvzz825b",
+      "entity": "settlement",
+      "amount": 1194728,
+      "status": "processed",
+      "fees": 4298,
+      "tax": 774,
+      "utr": "UTIB260311080642",
+      "created_at": 1773360000
+    },
+    {
+      "id": "setl_vw9m4cbyqiuryo",
+      "entity": "settlement",
+      "amount": 2296770,
+      "status": "processed",
+      "fees": 57503,
+      "tax": 10351,
+      "utr": "UTIB260311396697",
+      "created_at": 1773360000
+    },
+    {
+      "id": "setl_wqkpwdc7td8ow2",
+      "entity": "settlement",
+      "amount": 349900,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "HDFC260311320123",
+      "created_at": 1773360000
+    },
+    {
+      "id": "setl_xoqakmug0457qg",
+      "entity": "settlement",
+      "amount": 549700,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "HDFC260311614577",
+      "created_at": 1773360000
+    },
+    {
+      "id": "setl_z4h1knsfk6o5hj",
+      "entity": "settlement",
+      "amount": 1019591,
+      "status": "processed",
+      "fees": 15198,
+      "tax": 2736,
+      "utr": "KKBK260311082393",
+      "created_at": 1773360000
+    },
+    {
+      "id": "setl_02blwrrzcb8nrr",
+      "entity": "settlement",
+      "amount": 11072695,
+      "status": "processed",
+      "fees": 180868,
+      "tax": 32556,
+      "utr": "HDFC260312437565",
+      "created_at": 1773619200
+    },
+    {
+      "id": "setl_19e6auz5106oif",
+      "entity": "settlement",
+      "amount": -3248038,
+      "status": "reversed",
+      "fees": 1422,
+      "tax": 256,
+      "utr": "ICIC260312753603",
+      "created_at": 1773619200
+    },
+    {
+      "id": "setl_40b7gxsmo1h67k",
+      "entity": "settlement",
+      "amount": -11414,
+      "status": "reversed",
+      "fees": 9673,
+      "tax": 1741,
+      "utr": "KKBK260312757500",
+      "created_at": 1773619200
+    },
+    {
+      "id": "setl_c434sc13i1bvae",
+      "entity": "settlement",
+      "amount": 2430032,
+      "status": "processed",
+      "fees": 16117,
+      "tax": 2901,
+      "utr": "SBIN260312002415",
+      "created_at": 1773619200
+    },
+    {
+      "id": "setl_c5862t3hcvt1rj",
+      "entity": "settlement",
+      "amount": 3506895,
+      "status": "processed",
+      "fees": 18818,
+      "tax": 3387,
+      "utr": "HDFC260312712279",
+      "created_at": 1773619200
+    },
+    {
+      "id": "setl_d40c8noh0yzgg7",
+      "entity": "settlement",
+      "amount": 779949,
+      "status": "processed",
+      "fees": 8221,
+      "tax": 1480,
+      "utr": "KKBK260312428909",
+      "created_at": 1773619200
+    },
+    {
+      "id": "setl_e1hbuhv671r5ku",
+      "entity": "settlement",
+      "amount": 9299027,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "ICIC260312936782",
+      "created_at": 1773619200
+    },
+    {
+      "id": "setl_j2vpk4r91l242n",
+      "entity": "settlement",
+      "amount": 199900,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "SBIN260312907939",
+      "created_at": 1773619200
+    },
+    {
+      "id": "setl_n5h124ao6rphyx",
+      "entity": "settlement",
+      "amount": 2191755,
+      "status": "processed",
+      "fees": 6648,
+      "tax": 1197,
+      "utr": "UTIB260312558520",
+      "created_at": 1773619200
+    },
+    {
+      "id": "setl_sbvf2ftkx80msx",
+      "entity": "settlement",
+      "amount": 528716,
+      "status": "processed",
+      "fees": 17868,
+      "tax": 3216,
+      "utr": "ICIC260312098385",
+      "created_at": 1773619200
+    },
+    {
+      "id": "setl_u4weabk8uguw10",
+      "entity": "settlement",
+      "amount": 1820588,
+      "status": "processed",
+      "fees": 49178,
+      "tax": 8851,
+      "utr": "UTIB260312422565",
+      "created_at": 1773619200
+    },
+    {
+      "id": "setl_w3e2l2tipnmvob",
+      "entity": "settlement",
+      "amount": 4416145,
+      "status": "processed",
+      "fees": 46565,
+      "tax": 8383,
+      "utr": "SBIN260312309950",
+      "created_at": 1773619200
+    },
+    {
+      "id": "setl_3b52pid470qd81",
+      "entity": "settlement",
+      "amount": 229800,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "HDFC260313734792",
+      "created_at": 1773705600
+    },
+    {
+      "id": "setl_4jq2cgyr1knyt0",
+      "entity": "settlement",
+      "amount": 584632,
+      "status": "processed",
+      "fees": 12897,
+      "tax": 2321,
+      "utr": "ICIC260315377274",
+      "created_at": 1773705600
+    },
+    {
+      "id": "setl_5if49ylle3wiv3",
+      "entity": "settlement",
+      "amount": 1649700,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "HDFC260314304643",
+      "created_at": 1773705600
+    },
+    {
+      "id": "setl_6313obcesmyvlv",
+      "entity": "settlement",
+      "amount": 8897154,
+      "status": "processed",
+      "fees": 162087,
+      "tax": 29176,
+      "utr": "HDFC260315057859",
+      "created_at": 1773705600
+    },
+    {
+      "id": "setl_8hn08pdnc3hizo",
+      "entity": "settlement",
+      "amount": 5626971,
+      "status": "processed",
+      "fees": 77567,
+      "tax": 13962,
+      "utr": "ICIC260315527838",
+      "created_at": 1773705600
+    },
+    {
+      "id": "setl_b9fxp0yzrfexir",
+      "entity": "settlement",
+      "amount": 599900,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "KKBK260313035679",
+      "created_at": 1773705600
+    },
+    {
+      "id": "setl_dxe0o35uopu8wm",
+      "entity": "settlement",
+      "amount": 1907904,
+      "status": "processed",
+      "fees": 39319,
+      "tax": 7077,
+      "utr": "UTIB260313112894",
+      "created_at": 1773705600
+    },
+    {
+      "id": "setl_f2cts31p50kty6",
+      "entity": "settlement",
+      "amount": 1595446,
+      "status": "processed",
+      "fees": 38458,
+      "tax": 6923,
+      "utr": "KKBK260315345899",
+      "created_at": 1773705600
+    },
+    {
+      "id": "setl_h7x9xc7euoi7u9",
+      "entity": "settlement",
+      "amount": 194828,
+      "status": "processed",
+      "fees": 4298,
+      "tax": 774,
+      "utr": "ICIC260313130069",
+      "created_at": 1773705600
+    },
+    {
+      "id": "setl_iojabtoae0bznt",
+      "entity": "settlement",
+      "amount": 799900,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "SBIN260313314146",
+      "created_at": 1773705600
+    },
+    {
+      "id": "setl_khwaf9r28o2cr4",
+      "entity": "settlement",
+      "amount": -776674,
+      "status": "reversed",
+      "fees": 5698,
+      "tax": 1026,
+      "utr": "UTIB260313840516",
+      "created_at": 1773705600
+    },
+    {
+      "id": "setl_mmakcrmiuwaaui",
+      "entity": "settlement",
+      "amount": 1798164,
+      "status": "processed",
+      "fees": 43590,
+      "tax": 7846,
+      "utr": "KKBK260313175418",
+      "created_at": 1773705600
+    },
+    {
+      "id": "setl_nry0nwgbchscfo",
+      "entity": "settlement",
+      "amount": 9543995,
+      "status": "processed",
+      "fees": 183366,
+      "tax": 33006,
+      "utr": "UTIB260314979890",
+      "created_at": 1773705600
+    },
+    {
+      "id": "setl_pb66520qjoc3kj",
+      "entity": "settlement",
+      "amount": 711972,
+      "status": "processed",
+      "fees": 25219,
+      "tax": 4539,
+      "utr": "KKBK260313854442",
+      "created_at": 1773705600
+    },
+    {
+      "id": "setl_phg8im4fhy3vdj",
+      "entity": "settlement",
+      "amount": -997504,
+      "status": "reversed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "HDFC260313458924",
+      "created_at": 1773705600
+    },
+    {
+      "id": "setl_phhtmhzfe5chk2",
+      "entity": "settlement",
+      "amount": 1449650,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "UTIB260314276733",
+      "created_at": 1773705600
+    },
+    {
+      "id": "setl_pw9btdzgdem05x",
+      "entity": "settlement",
+      "amount": 1539826,
+      "status": "processed",
+      "fees": 6016,
+      "tax": 1083,
+      "utr": "UTIB260313834248",
+      "created_at": 1773705600
+    },
+    {
+      "id": "setl_qx6gwqapu88ivr",
+      "entity": "settlement",
+      "amount": 1262400,
+      "status": "processed",
+      "fees": 31695,
+      "tax": 5705,
+      "utr": "HDFC260314475307",
+      "created_at": 1773705600
+    },
+    {
+      "id": "setl_qxome65mx2ppuu",
+      "entity": "settlement",
+      "amount": 985642,
+      "status": "processed",
+      "fees": 26871,
+      "tax": 4837,
+      "utr": "SBIN260314036175",
+      "created_at": 1773705600
+    },
+    {
+      "id": "setl_rach3zsf8i2oaq",
+      "entity": "settlement",
+      "amount": 5320389,
+      "status": "processed",
+      "fees": 2848,
+      "tax": 513,
+      "utr": "KKBK260313348462",
+      "created_at": 1773705600
+    },
+    {
+      "id": "setl_uwk2nfith0hoh6",
+      "entity": "settlement",
+      "amount": 29509,
+      "status": "processed",
+      "fees": 6799,
+      "tax": 1224,
+      "utr": "SBIN260313943926",
+      "created_at": 1773705600
+    },
+    {
+      "id": "setl_vyjeetsjv04ofm",
+      "entity": "settlement",
+      "amount": 977815,
+      "status": "processed",
+      "fees": 34635,
+      "tax": 6234,
+      "utr": "UTIB260313955677",
+      "created_at": 1773705600
+    },
+    {
+      "id": "setl_z6zu6x8rcr6zru",
+      "entity": "settlement",
+      "amount": 194448,
+      "status": "processed",
+      "fees": 4536,
+      "tax": 816,
+      "utr": "HDFC260313033476",
+      "created_at": 1773705600
+    },
+    {
+      "id": "setl_3xayrxwhgo7u0j",
+      "entity": "settlement",
+      "amount": 442504,
+      "status": "processed",
+      "fees": 6183,
+      "tax": 1113,
+      "utr": "ICIC260316161818",
+      "created_at": 1773792000
+    },
+    {
+      "id": "setl_46apx1fs3e7rst",
+      "entity": "settlement",
+      "amount": 438486,
+      "status": "processed",
+      "fees": 9673,
+      "tax": 1741,
+      "utr": "SBIN260316648348",
+      "created_at": 1773792000
+    },
+    {
+      "id": "setl_68spibdm79jym9",
+      "entity": "settlement",
+      "amount": 146097,
+      "status": "processed",
+      "fees": 3223,
+      "tax": 580,
+      "utr": "SBIN260316258355",
+      "created_at": 1773792000
+    },
+    {
+      "id": "setl_7rm4kiejbp9tm0",
+      "entity": "settlement",
+      "amount": 12745700,
+      "status": "processed",
+      "fees": 273447,
+      "tax": 49221,
+      "utr": "ICIC260316875547",
+      "created_at": 1773792000
+    },
+    {
+      "id": "setl_g8shm0dan88u8t",
+      "entity": "settlement",
+      "amount": 3070298,
+      "status": "processed",
+      "fees": 27205,
+      "tax": 4898,
+      "utr": "SBIN260316113863",
+      "created_at": 1773792000
+    },
+    {
+      "id": "setl_j8wfv4k8srhds7",
+      "entity": "settlement",
+      "amount": 179750,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "KKBK260316402288",
+      "created_at": 1773792000
+    },
+    {
+      "id": "setl_mdl0kklepinrdz",
+      "entity": "settlement",
+      "amount": 242232,
+      "status": "processed",
+      "fees": 6498,
+      "tax": 1170,
+      "utr": "ICIC260316244065",
+      "created_at": 1773792000
+    },
+    {
+      "id": "setl_mxfoyqdnp854a7",
+      "entity": "settlement",
+      "amount": 779606,
+      "status": "processed",
+      "fees": 17198,
+      "tax": 3096,
+      "utr": "UTIB260316038234",
+      "created_at": 1773792000
+    },
+    {
+      "id": "setl_p0cwrxnveddo79",
+      "entity": "settlement",
+      "amount": 723327,
+      "status": "processed",
+      "fees": 5316,
+      "tax": 957,
+      "utr": "ICIC260316356126",
+      "created_at": 1773792000
+    },
+    {
+      "id": "setl_q84fde2lhcmw9l",
+      "entity": "settlement",
+      "amount": 92953,
+      "status": "processed",
+      "fees": 5064,
+      "tax": 912,
+      "utr": "ICIC260316419945",
+      "created_at": 1773792000
+    },
+    {
+      "id": "setl_r7ckcjl10im6cs",
+      "entity": "settlement",
+      "amount": 1142091,
+      "status": "processed",
+      "fees": 6448,
+      "tax": 1161,
+      "utr": "HDFC260316829401",
+      "created_at": 1773792000
+    },
+    {
+      "id": "setl_wbs26l6l34iwsz",
+      "entity": "settlement",
+      "amount": 149900,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "KKBK260316176165",
+      "created_at": 1773792000
+    },
+    {
+      "id": "setl_wy23rfx4xwz0y1",
+      "entity": "settlement",
+      "amount": 342055,
+      "status": "processed",
+      "fees": 6648,
+      "tax": 1197,
+      "utr": "ICIC260316860593",
+      "created_at": 1773792000
+    },
+    {
+      "id": "setl_xxt8765efypvhb",
+      "entity": "settlement",
+      "amount": 2890563,
+      "status": "processed",
+      "fees": 66202,
+      "tax": 11916,
+      "utr": "SBIN260316086205",
+      "created_at": 1773792000
+    },
+    {
+      "id": "setl_zk8i7mixn98yb4",
+      "entity": "settlement",
+      "amount": 9597492,
+      "status": "processed",
+      "fees": 297476,
+      "tax": 53546,
+      "utr": "UTIB260316693153",
+      "created_at": 1773792000
+    },
+    {
+      "id": "setl_zohfdvus2orkra",
+      "entity": "settlement",
+      "amount": 1871761,
+      "status": "processed",
+      "fees": 6389,
+      "tax": 1150,
+      "utr": "ICIC260316838768",
+      "created_at": 1773792000
+    },
+    {
+      "id": "setl_zzkcw16yhjlk7j",
+      "entity": "settlement",
+      "amount": 903239,
+      "status": "processed",
+      "fees": 18272,
+      "tax": 3289,
+      "utr": "HDFC260316472168",
+      "created_at": 1773792000
+    },
+    {
+      "id": "setl_0ww17tssqxgb8r",
+      "entity": "settlement",
+      "amount": 499900,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "KKBK260317859783",
+      "created_at": 1773878400
+    },
+    {
+      "id": "setl_2oc9ru8t1cgr98",
+      "entity": "settlement",
+      "amount": 292575,
+      "status": "processed",
+      "fees": 6208,
+      "tax": 1117,
+      "utr": "SBIN260317776153",
+      "created_at": 1773878400
+    },
+    {
+      "id": "setl_4o5gfol09o7l0l",
+      "entity": "settlement",
+      "amount": 129900,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "HDFC260317153665",
+      "created_at": 1773878400
+    },
+    {
+      "id": "setl_6omlm44oywncln",
+      "entity": "settlement",
+      "amount": 249850,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "ICIC260317515308",
+      "created_at": 1773878400
+    },
+    {
+      "id": "setl_7c3h9v0a378jco",
+      "entity": "settlement",
+      "amount": 532396,
+      "status": "processed",
+      "fees": 6232,
+      "tax": 1122,
+      "utr": "HDFC260317472864",
+      "created_at": 1773878400
+    },
+    {
+      "id": "setl_7lxjzt2hrfubic",
+      "entity": "settlement",
+      "amount": 77873,
+      "status": "processed",
+      "fees": 1718,
+      "tax": 309,
+      "utr": "UTIB260317854447",
+      "created_at": 1773878400
+    },
+    {
+      "id": "setl_9gyv93t37yvl8i",
+      "entity": "settlement",
+      "amount": 724650,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "KKBK260317243303",
+      "created_at": 1773878400
+    },
+    {
+      "id": "setl_gms8pv4apgdg3n",
+      "entity": "settlement",
+      "amount": 4444221,
+      "status": "processed",
+      "fees": 46592,
+      "tax": 8387,
+      "utr": "SBIN260317714196",
+      "created_at": 1773878400
+    },
+    {
+      "id": "setl_hbdwza1h5lw6vl",
+      "entity": "settlement",
+      "amount": 634483,
+      "status": "processed",
+      "fees": 12896,
+      "tax": 2321,
+      "utr": "HDFC260317667482",
+      "created_at": 1773878400
+    },
+    {
+      "id": "setl_lc7tsd68d1cxoh",
+      "entity": "settlement",
+      "amount": 292752,
+      "status": "processed",
+      "fees": 6058,
+      "tax": 1090,
+      "utr": "HDFC260317349544",
+      "created_at": 1773878400
+    },
+    {
+      "id": "setl_lt044kt71ge7ae",
+      "entity": "settlement",
+      "amount": 6581959,
+      "status": "processed",
+      "fees": 46400,
+      "tax": 8352,
+      "utr": "HDFC260317323681",
+      "created_at": 1773878400
+    },
+    {
+      "id": "setl_q09ttx44qcpfef",
+      "entity": "settlement",
+      "amount": 278314,
+      "status": "processed",
+      "fees": 1259,
+      "tax": 227,
+      "utr": "ICIC260317107099",
+      "created_at": 1773878400
+    },
+    {
+      "id": "setl_ubt8hs7tp62hxc",
+      "entity": "settlement",
+      "amount": 308348,
+      "status": "processed",
+      "fees": 5510,
+      "tax": 992,
+      "utr": "KKBK260317543093",
+      "created_at": 1773878400
+    },
+    {
+      "id": "setl_v4pb1qm6gc585b",
+      "entity": "settlement",
+      "amount": 1099850,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "UTIB260317467726",
+      "created_at": 1773878400
+    },
+    {
+      "id": "setl_vref0xylvlokf7",
+      "entity": "settlement",
+      "amount": 5637403,
+      "status": "processed",
+      "fees": 72235,
+      "tax": 13003,
+      "utr": "HDFC260317799427",
+      "created_at": 1773878400
+    },
+    {
+      "id": "setl_zv1jgea9frui5i",
+      "entity": "settlement",
+      "amount": 199900,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "ICIC260317766169",
+      "created_at": 1773878400
+    },
+    {
+      "id": "setl_0aeqkjtzw3ghcw",
+      "entity": "settlement",
+      "amount": -1151091,
+      "status": "reversed",
+      "fees": 1073,
+      "tax": 193,
+      "utr": "KKBK260318198573",
+      "created_at": 1773964800
+    },
+    {
+      "id": "setl_4rsppzh3aevqql",
+      "entity": "settlement",
+      "amount": 5219364,
+      "status": "processed",
+      "fees": 114671,
+      "tax": 20641,
+      "utr": "KKBK260318382789",
+      "created_at": 1773964800
+    },
+    {
+      "id": "setl_9jktgzzojlsqcg",
+      "entity": "settlement",
+      "amount": 779606,
+      "status": "processed",
+      "fees": 17198,
+      "tax": 3096,
+      "utr": "ICIC260318701368",
+      "created_at": 1773964800
+    },
+    {
+      "id": "setl_e3omse36helng1",
+      "entity": "settlement",
+      "amount": 779509,
+      "status": "processed",
+      "fees": 17196,
+      "tax": 3095,
+      "utr": "HDFC260318056064",
+      "created_at": 1773964800
+    },
+    {
+      "id": "setl_ey9ci1tt3lt78n",
+      "entity": "settlement",
+      "amount": 584680,
+      "status": "processed",
+      "fees": 12898,
+      "tax": 2322,
+      "utr": "SBIN260318320080",
+      "created_at": 1773964800
+    },
+    {
+      "id": "setl_gfywkatsrkuuxe",
+      "entity": "settlement",
+      "amount": 3650046,
+      "status": "processed",
+      "fees": 40967,
+      "tax": 7374,
+      "utr": "SBIN260318394887",
+      "created_at": 1773964800
+    },
+    {
+      "id": "setl_i5soismsix9bi5",
+      "entity": "settlement",
+      "amount": 3986081,
+      "status": "processed",
+      "fees": 44508,
+      "tax": 8011,
+      "utr": "HDFC260318960727",
+      "created_at": 1773964800
+    },
+    {
+      "id": "setl_jlf7q2a53siv9g",
+      "entity": "settlement",
+      "amount": -429900,
+      "status": "reversed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "KKBK260318019863",
+      "created_at": 1773964800
+    },
+    {
+      "id": "setl_nkjbghcu8txjb6",
+      "entity": "settlement",
+      "amount": 2888092,
+      "status": "processed",
+      "fees": 15188,
+      "tax": 2734,
+      "utr": "KKBK260318587138",
+      "created_at": 1773964800
+    },
+    {
+      "id": "setl_qnshvpajzhqdet",
+      "entity": "settlement",
+      "amount": 1636076,
+      "status": "processed",
+      "fees": 31280,
+      "tax": 5631,
+      "utr": "HDFC260318388564",
+      "created_at": 1773964800
+    },
+    {
+      "id": "setl_sg4ize9oqouksu",
+      "entity": "settlement",
+      "amount": 9167916,
+      "status": "processed",
+      "fees": 201140,
+      "tax": 36205,
+      "utr": "HDFC260318323409",
+      "created_at": 1773964800
+    },
+    {
+      "id": "setl_xj84mie9300avg",
+      "entity": "settlement",
+      "amount": 3296883,
+      "status": "processed",
+      "fees": 5947,
+      "tax": 1070,
+      "utr": "UTIB260318962168",
+      "created_at": 1773964800
+    },
+    {
+      "id": "setl_7xjt1loe17ehwh",
+      "entity": "settlement",
+      "amount": 721283,
+      "status": "processed",
+      "fees": 7091,
+      "tax": 1276,
+      "utr": "KKBK260319041719",
+      "created_at": 1774224000
+    },
+    {
+      "id": "setl_9e5jmnn7qnc7s9",
+      "entity": "settlement",
+      "amount": 7719034,
+      "status": "processed",
+      "fees": 73779,
+      "tax": 13280,
+      "utr": "ICIC260319137231",
+      "created_at": 1774224000
+    },
+    {
+      "id": "setl_9ogmeh7g62i6cp",
+      "entity": "settlement",
+      "amount": 1414750,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "UTIB260319419430",
+      "created_at": 1774224000
+    },
+    {
+      "id": "setl_g7pmd9jikh35ta",
+      "entity": "settlement",
+      "amount": 5203833,
+      "status": "processed",
+      "fees": 42176,
+      "tax": 7591,
+      "utr": "UTIB260319827527",
+      "created_at": 1774224000
+    },
+    {
+      "id": "setl_ism54gy95c38x9",
+      "entity": "settlement",
+      "amount": 649800,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "HDFC260319445307",
+      "created_at": 1774224000
+    },
+    {
+      "id": "setl_m41w4ix1s3yix0",
+      "entity": "settlement",
+      "amount": 13971678,
+      "status": "processed",
+      "fees": 5698,
+      "tax": 1026,
+      "utr": "UTIB260319275044",
+      "created_at": 1774224000
+    },
+    {
+      "id": "setl_q0173rlt5kh680",
+      "entity": "settlement",
+      "amount": 3868061,
+      "status": "processed",
+      "fees": 47618,
+      "tax": 8571,
+      "utr": "HDFC260319846671",
+      "created_at": 1774224000
+    },
+    {
+      "id": "setl_tx73iynw2jiff9",
+      "entity": "settlement",
+      "amount": 49900,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "ICIC260319046527",
+      "created_at": 1774224000
+    },
+    {
+      "id": "setl_wj2kd2myzrgzxm",
+      "entity": "settlement",
+      "amount": 1744528,
+      "status": "processed",
+      "fees": 4298,
+      "tax": 774,
+      "utr": "UTIB260319657227",
+      "created_at": 1774224000
+    },
+    {
+      "id": "setl_zc1f3d9s481u85",
+      "entity": "settlement",
+      "amount": -1309850,
+      "status": "reversed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "HDFC260319029615",
+      "created_at": 1774224000
+    },
+    {
+      "id": "setl_1dhnpe6zlogii5",
+      "entity": "settlement",
+      "amount": 175032,
+      "status": "processed",
+      "fees": 4083,
+      "tax": 735,
+      "utr": "KKBK260320525622",
+      "created_at": 1774310400
+    },
+    {
+      "id": "setl_1o1yjyuguts3z6",
+      "entity": "settlement",
+      "amount": 1122393,
+      "status": "processed",
+      "fees": 23226,
+      "tax": 4181,
+      "utr": "ICIC260320319877",
+      "created_at": 1774310400
+    },
+    {
+      "id": "setl_3zidlq8iypd9ie",
+      "entity": "settlement",
+      "amount": 462803,
+      "status": "processed",
+      "fees": 10209,
+      "tax": 1838,
+      "utr": "ICIC260322544648",
+      "created_at": 1774310400
+    },
+    {
+      "id": "setl_4sp4l5zx3snzg0",
+      "entity": "settlement",
+      "amount": 1488533,
+      "status": "processed",
+      "fees": 36795,
+      "tax": 6623,
+      "utr": "HDFC260320930018",
+      "created_at": 1774310400
+    },
+    {
+      "id": "setl_4w7eviviqiba5d",
+      "entity": "settlement",
+      "amount": 974850,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "HDFC260320944425",
+      "created_at": 1774310400
+    },
+    {
+      "id": "setl_57mgcjtlpyqnf4",
+      "entity": "settlement",
+      "amount": 745897,
+      "status": "processed",
+      "fees": 3223,
+      "tax": 580,
+      "utr": "HDFC260321563431",
+      "created_at": 1774310400
+    },
+    {
+      "id": "setl_5ap5k7c39wstol",
+      "entity": "settlement",
+      "amount": 929800,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "ICIC260320422723",
+      "created_at": 1774310400
+    },
+    {
+      "id": "setl_6vbfidkgde9lwf",
+      "entity": "settlement",
+      "amount": 146539,
+      "status": "processed",
+      "fees": 2848,
+      "tax": 513,
+      "utr": "SBIN260320757654",
+      "created_at": 1774310400
+    },
+    {
+      "id": "setl_74rvul54ee4nc1",
+      "entity": "settlement",
+      "amount": 1642386,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "HDFC260320199975",
+      "created_at": 1774310400
+    },
+    {
+      "id": "setl_7kmy8rqsd4x03e",
+      "entity": "settlement",
+      "amount": 149900,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "UTIB260320534927",
+      "created_at": 1774310400
+    },
+    {
+      "id": "setl_7tirzqpljnmyva",
+      "entity": "settlement",
+      "amount": 1043460,
+      "status": "processed",
+      "fees": 5373,
+      "tax": 967,
+      "utr": "UTIB260320304455",
+      "created_at": 1774310400
+    },
+    {
+      "id": "setl_ejitlsw6yz9hce",
+      "entity": "settlement",
+      "amount": 195418,
+      "status": "processed",
+      "fees": 3798,
+      "tax": 684,
+      "utr": "ICIC260321573298",
+      "created_at": 1774310400
+    },
+    {
+      "id": "setl_fgs97pbh0j3qk1",
+      "entity": "settlement",
+      "amount": 599846,
+      "status": "processed",
+      "fees": 17037,
+      "tax": 3067,
+      "utr": "ICIC260320698331",
+      "created_at": 1774310400
+    },
+    {
+      "id": "setl_gtskcud05exvvk",
+      "entity": "settlement",
+      "amount": -62575,
+      "status": "reversed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "ICIC260320475602",
+      "created_at": 1774310400
+    },
+    {
+      "id": "setl_h7zn2i3zf50q2r",
+      "entity": "settlement",
+      "amount": 1099700,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "HDFC260320228212",
+      "created_at": 1774310400
+    },
+    {
+      "id": "setl_j4xx2v02cy4jn5",
+      "entity": "settlement",
+      "amount": 520337,
+      "status": "processed",
+      "fees": 3570,
+      "tax": 643,
+      "utr": "UTIB260320248571",
+      "created_at": 1774310400
+    },
+    {
+      "id": "setl_joorw51r0i227m",
+      "entity": "settlement",
+      "amount": 4258103,
+      "status": "processed",
+      "fees": 59955,
+      "tax": 10792,
+      "utr": "UTIB260321652086",
+      "created_at": 1774310400
+    },
+    {
+      "id": "setl_krjpvtktqmfqjc",
+      "entity": "settlement",
+      "amount": 749800,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "SBIN260320894293",
+      "created_at": 1774310400
+    },
+    {
+      "id": "setl_l573kqyz6q0c4k",
+      "entity": "settlement",
+      "amount": 3468029,
+      "status": "processed",
+      "fees": 82784,
+      "tax": 14901,
+      "utr": "ICIC260322015962",
+      "created_at": 1774310400
+    },
+    {
+      "id": "setl_lb002e6gw9znxs",
+      "entity": "settlement",
+      "amount": 2029450,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "KKBK260320798821",
+      "created_at": 1774310400
+    },
+    {
+      "id": "setl_lsvcumhy4y4goi",
+      "entity": "settlement",
+      "amount": 2194333,
+      "status": "processed",
+      "fees": 25311,
+      "tax": 4556,
+      "utr": "HDFC260320697768",
+      "created_at": 1774310400
+    },
+    {
+      "id": "setl_nf6dxop6h36492",
+      "entity": "settlement",
+      "amount": 2236739,
+      "status": "processed",
+      "fees": 36111,
+      "tax": 6500,
+      "utr": "HDFC260321413680",
+      "created_at": 1774310400
+    },
+    {
+      "id": "setl_nmolf5k90bi4i8",
+      "entity": "settlement",
+      "amount": -395125,
+      "status": "reversed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "UTIB260322991980",
+      "created_at": 1774310400
+    },
+    {
+      "id": "setl_nqn2p5hi46zc87",
+      "entity": "settlement",
+      "amount": 248534,
+      "status": "processed",
+      "fees": 1073,
+      "tax": 193,
+      "utr": "KKBK260320298836",
+      "created_at": 1774310400
+    },
+    {
+      "id": "setl_o6hj0o97xduwxg",
+      "entity": "settlement",
+      "amount": 349900,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "SBIN260320733642",
+      "created_at": 1774310400
+    },
+    {
+      "id": "setl_oc6x0l8qobyxxe",
+      "entity": "settlement",
+      "amount": 823384,
+      "status": "processed",
+      "fees": 1073,
+      "tax": 193,
+      "utr": "SBIN260322787130",
+      "created_at": 1774310400
+    },
+    {
+      "id": "setl_p7j4mkjx9hwr3b",
+      "entity": "settlement",
+      "amount": 199900,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "UTIB260321616104",
+      "created_at": 1774310400
+    },
+    {
+      "id": "setl_prc1awwij70jd1",
+      "entity": "settlement",
+      "amount": 2832552,
+      "status": "processed",
+      "fees": 22456,
+      "tax": 4042,
+      "utr": "ICIC260320061636",
+      "created_at": 1774310400
+    },
+    {
+      "id": "setl_rnz6r2b6skm9yv",
+      "entity": "settlement",
+      "amount": 451333,
+      "status": "processed",
+      "fees": 7091,
+      "tax": 1276,
+      "utr": "HDFC260322860895",
+      "created_at": 1774310400
+    },
+    {
+      "id": "setl_rsn1a88hjbkd3z",
+      "entity": "settlement",
+      "amount": 3227205,
+      "status": "processed",
+      "fees": 96604,
+      "tax": 17389,
+      "utr": "ICIC260322099110",
+      "created_at": 1774310400
+    },
+    {
+      "id": "setl_ruhn4i48c6jer9",
+      "entity": "settlement",
+      "amount": 748950,
+      "status": "processed",
+      "fees": 4746,
+      "tax": 854,
+      "utr": "KKBK260320055432",
+      "created_at": 1774310400
+    },
+    {
+      "id": "setl_uzdm9zmldiwjzl",
+      "entity": "settlement",
+      "amount": 63986,
+      "status": "processed",
+      "fees": 13465,
+      "tax": 2424,
+      "utr": "HDFC260320490843",
+      "created_at": 1774310400
+    },
+    {
+      "id": "setl_z0zj404kom4sw5",
+      "entity": "settlement",
+      "amount": 272701,
+      "status": "processed",
+      "fees": 6016,
+      "tax": 1083,
+      "utr": "UTIB260320547047",
+      "created_at": 1774310400
+    },
+    {
+      "id": "setl_308r1xdd67nch3",
+      "entity": "settlement",
+      "amount": 2452424,
+      "status": "processed",
+      "fees": 51683,
+      "tax": 9303,
+      "utr": "UTIB260323952226",
+      "created_at": 1774483200
+    },
+    {
+      "id": "setl_38sekhax5jjm2m",
+      "entity": "settlement",
+      "amount": 6093775,
+      "status": "processed",
+      "fees": 18742,
+      "tax": 3374,
+      "utr": "ICIC260323553024",
+      "created_at": 1774483200
+    },
+    {
+      "id": "setl_6gqd0k5vv9q4bj",
+      "entity": "settlement",
+      "amount": 1026264,
+      "status": "processed",
+      "fees": 19946,
+      "tax": 3590,
+      "utr": "ICIC260323307353",
+      "created_at": 1774483200
+    },
+    {
+      "id": "setl_8rrb5m7dn465c1",
+      "entity": "settlement",
+      "amount": 800305,
+      "status": "processed",
+      "fees": -640,
+      "tax": -115,
+      "utr": "SBIN260323188720",
+      "created_at": 1774483200
+    },
+    {
+      "id": "setl_9r573upbo9n9t2",
+      "entity": "settlement",
+      "amount": 199900,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "KKBK260323029023",
+      "created_at": 1774483200
+    },
+    {
+      "id": "setl_axqbn7h6v0n5qh",
+      "entity": "settlement",
+      "amount": 1103940,
+      "status": "processed",
+      "fees": 37411,
+      "tax": 6734,
+      "utr": "KKBK260323457501",
+      "created_at": 1774483200
+    },
+    {
+      "id": "setl_c7763a24siom7u",
+      "entity": "settlement",
+      "amount": 342055,
+      "status": "processed",
+      "fees": 6648,
+      "tax": 1197,
+      "utr": "KKBK260323757605",
+      "created_at": 1774483200
+    },
+    {
+      "id": "setl_c9std1uo1ei5g8",
+      "entity": "settlement",
+      "amount": 249900,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "KKBK260323851120",
+      "created_at": 1774483200
+    },
+    {
+      "id": "setl_ceawu1chgt4q22",
+      "entity": "settlement",
+      "amount": 5637312,
+      "status": "processed",
+      "fees": 35117,
+      "tax": 6321,
+      "utr": "SBIN260323454179",
+      "created_at": 1774483200
+    },
+    {
+      "id": "setl_lhgauyguqee17k",
+      "entity": "settlement",
+      "amount": 1142436,
+      "status": "processed",
+      "fees": 6071,
+      "tax": 1093,
+      "utr": "KKBK260323418795",
+      "created_at": 1774483200
+    },
+    {
+      "id": "setl_rj994gmqsw0pwr",
+      "entity": "settlement",
+      "amount": 877021,
+      "status": "processed",
+      "fees": 19347,
+      "tax": 3482,
+      "utr": "UTIB260323051365",
+      "created_at": 1774483200
+    },
+    {
+      "id": "setl_y71e6dbzuf71h1",
+      "entity": "settlement",
+      "amount": 3882940,
+      "status": "processed",
+      "fees": 17466,
+      "tax": 3144,
+      "utr": "ICIC260323358586",
+      "created_at": 1774483200
+    },
+    {
+      "id": "setl_zkdgjirysj6a2p",
+      "entity": "settlement",
+      "amount": 100000,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "UTIB260323003598",
+      "created_at": 1774483200
+    },
+    {
+      "id": "setl_1lthy6jxwjs6fk",
+      "entity": "settlement",
+      "amount": 536825,
+      "status": "processed",
+      "fees": 10996,
+      "tax": 1979,
+      "utr": "SBIN260325485753",
+      "created_at": 1774569600
+    },
+    {
+      "id": "setl_3wdjgeu0m7aove",
+      "entity": "settlement",
+      "amount": 859424,
+      "status": "processed",
+      "fees": 8497,
+      "tax": 1529,
+      "utr": "SBIN260325536505",
+      "created_at": 1774569600
+    },
+    {
+      "id": "setl_4wow8ro71rnfz5",
+      "entity": "settlement",
+      "amount": 287868,
+      "status": "processed",
+      "fees": 10197,
+      "tax": 1835,
+      "utr": "SBIN260324296040",
+      "created_at": 1774569600
+    },
+    {
+      "id": "setl_5men1nsxz5lubn",
+      "entity": "settlement",
+      "amount": 2285096,
+      "status": "processed",
+      "fees": 47327,
+      "tax": 8519,
+      "utr": "ICIC260325001130",
+      "created_at": 1774569600
+    },
+    {
+      "id": "setl_6r0gtc6q8kjbuy",
+      "entity": "settlement",
+      "amount": 1851045,
+      "status": "processed",
+      "fees": 24114,
+      "tax": 4341,
+      "utr": "ICIC260324855397",
+      "created_at": 1774569600
+    },
+    {
+      "id": "setl_7d5sqi9ii3fxas",
+      "entity": "settlement",
+      "amount": 1382785,
+      "status": "processed",
+      "fees": 17187,
+      "tax": 3094,
+      "utr": "HDFC260325675693",
+      "created_at": 1774569600
+    },
+    {
+      "id": "setl_7i0g8qekk9rdi1",
+      "entity": "settlement",
+      "amount": 749800,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "KKBK260324597370",
+      "created_at": 1774569600
+    },
+    {
+      "id": "setl_7v7u4d5aqomnti",
+      "entity": "settlement",
+      "amount": 1599800,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "SBIN260324840585",
+      "created_at": 1774569600
+    },
+    {
+      "id": "setl_9ooj29wh6d7pf2",
+      "entity": "settlement",
+      "amount": 1963488,
+      "status": "processed",
+      "fees": 18447,
+      "tax": 3321,
+      "utr": "ICIC260324702520",
+      "created_at": 1774569600
+    },
+    {
+      "id": "setl_aid36lopmfi5g5",
+      "entity": "settlement",
+      "amount": 449800,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "ICIC260324938797",
+      "created_at": 1774569600
+    },
+    {
+      "id": "setl_bfg944zv1q7zoi",
+      "entity": "settlement",
+      "amount": 1366195,
+      "status": "processed",
+      "fees": 11360,
+      "tax": 2045,
+      "utr": "KKBK260324426878",
+      "created_at": 1774569600
+    },
+    {
+      "id": "setl_c0lkanvixikpwy",
+      "entity": "settlement",
+      "amount": 2486270,
+      "status": "processed",
+      "fees": 31483,
+      "tax": 5668,
+      "utr": "HDFC260324162337",
+      "created_at": 1774569600
+    },
+    {
+      "id": "setl_c6ggwmtnqdltoy",
+      "entity": "settlement",
+      "amount": 1736758,
+      "status": "processed",
+      "fees": 38312,
+      "tax": 6896,
+      "utr": "ICIC260325171925",
+      "created_at": 1774569600
+    },
+    {
+      "id": "setl_d82mqm7vdkmrs4",
+      "entity": "settlement",
+      "amount": 449900,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "UTIB260324060562",
+      "created_at": 1774569600
+    },
+    {
+      "id": "setl_gwk7r8gkqink2k",
+      "entity": "settlement",
+      "amount": 3153387,
+      "status": "processed",
+      "fees": 38867,
+      "tax": 6996,
+      "utr": "UTIB260325529561",
+      "created_at": 1774569600
+    },
+    {
+      "id": "setl_hhf9sbfhwha9t2",
+      "entity": "settlement",
+      "amount": 424528,
+      "status": "processed",
+      "fees": 4298,
+      "tax": 774,
+      "utr": "HDFC260325674488",
+      "created_at": 1774569600
+    },
+    {
+      "id": "setl_ij0fpxwrh78258",
+      "entity": "settlement",
+      "amount": 974532,
+      "status": "processed",
+      "fees": 21498,
+      "tax": 3870,
+      "utr": "HDFC260324734905",
+      "created_at": 1774569600
+    },
+    {
+      "id": "setl_ivqydnrgpij9s4",
+      "entity": "settlement",
+      "amount": 1515029,
+      "status": "processed",
+      "fees": 12264,
+      "tax": 2207,
+      "utr": "SBIN260324040676",
+      "created_at": 1774569600
+    },
+    {
+      "id": "setl_mnglyimeonjad0",
+      "entity": "settlement",
+      "amount": 244297,
+      "status": "processed",
+      "fees": 4748,
+      "tax": 855,
+      "utr": "KKBK260324895887",
+      "created_at": 1774569600
+    },
+    {
+      "id": "setl_mq4gi2g8yjqlit",
+      "entity": "settlement",
+      "amount": 1444089,
+      "status": "processed",
+      "fees": 30094,
+      "tax": 5417,
+      "utr": "UTIB260325303712",
+      "created_at": 1774569600
+    },
+    {
+      "id": "setl_n14fzp4pgwn9fz",
+      "entity": "settlement",
+      "amount": 243560,
+      "status": "processed",
+      "fees": 5373,
+      "tax": 967,
+      "utr": "UTIB260324647998",
+      "created_at": 1774569600
+    },
+    {
+      "id": "setl_pyqvg2tnhatptm",
+      "entity": "settlement",
+      "amount": 298732,
+      "status": "processed",
+      "fees": 990,
+      "tax": 178,
+      "utr": "HDFC260325560731",
+      "created_at": 1774569600
+    },
+    {
+      "id": "setl_s2epy9j1huicmn",
+      "entity": "settlement",
+      "amount": 6884311,
+      "status": "processed",
+      "fees": 160575,
+      "tax": 28904,
+      "utr": "ICIC260324314493",
+      "created_at": 1774569600
+    },
+    {
+      "id": "setl_s78arbv8mkrx4c",
+      "entity": "settlement",
+      "amount": 9467921,
+      "status": "processed",
+      "fees": 4399,
+      "tax": 792,
+      "utr": "ICIC260325101043",
+      "created_at": 1774569600
+    },
+    {
+      "id": "setl_tggxwlfgydp10z",
+      "entity": "settlement",
+      "amount": 974532,
+      "status": "processed",
+      "fees": 21498,
+      "tax": 3870,
+      "utr": "HDFC260325566295",
+      "created_at": 1774569600
+    },
+    {
+      "id": "setl_ukgylayn46y1de",
+      "entity": "settlement",
+      "amount": 249850,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "ICIC260324006284",
+      "created_at": 1774569600
+    },
+    {
+      "id": "setl_x006mlbi9gxuuu",
+      "entity": "settlement",
+      "amount": 5084868,
+      "status": "processed",
+      "fees": 55540,
+      "tax": 9998,
+      "utr": "UTIB260325488567",
+      "created_at": 1774569600
+    },
+    {
+      "id": "setl_xms0mlaeolcjz7",
+      "entity": "settlement",
+      "amount": 582893,
+      "status": "processed",
+      "fees": 16092,
+      "tax": 2897,
+      "utr": "HDFC260325921213",
+      "created_at": 1774569600
+    },
+    {
+      "id": "setl_yfpdh790w8rtwm",
+      "entity": "settlement",
+      "amount": 390365,
+      "status": "processed",
+      "fees": 7996,
+      "tax": 1439,
+      "utr": "UTIB260324752554",
+      "created_at": 1774569600
+    },
+    {
+      "id": "setl_yvy52wcdcbgopt",
+      "entity": "settlement",
+      "amount": 1099850,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "KKBK260324820978",
+      "created_at": 1774569600
+    },
+    {
+      "id": "setl_077kgu2gnc3kqz",
+      "entity": "settlement",
+      "amount": 23012744,
+      "status": "processed",
+      "fees": 2793,
+      "tax": 503,
+      "utr": "HDFC260326375176",
+      "created_at": 1774828800
+    },
+    {
+      "id": "setl_1cv6jmvmxddcht",
+      "entity": "settlement",
+      "amount": 1438049,
+      "status": "processed",
+      "fees": 18094,
+      "tax": 3257,
+      "utr": "ICIC260326081076",
+      "created_at": 1774828800
+    },
+    {
+      "id": "setl_55dywtok3fb2oa",
+      "entity": "settlement",
+      "amount": 498738,
+      "status": "processed",
+      "fees": 900,
+      "tax": 162,
+      "utr": "UTIB260326945563",
+      "created_at": 1774828800
+    },
+    {
+      "id": "setl_61ouc916npf7t6",
+      "entity": "settlement",
+      "amount": 844900,
+      "status": "processed",
+      "fees": 4068,
+      "tax": 732,
+      "utr": "ICIC260326162420",
+      "created_at": 1774828800
+    },
+    {
+      "id": "setl_iyxg5wbf1l8e2n",
+      "entity": "settlement",
+      "amount": 1354492,
+      "status": "processed",
+      "fees": 29880,
+      "tax": 5378,
+      "utr": "ICIC260326038796",
+      "created_at": 1774828800
+    },
+    {
+      "id": "setl_jy5o1ixvt3dozy",
+      "entity": "settlement",
+      "amount": 8339254,
+      "status": "processed",
+      "fees": 259816,
+      "tax": 46767,
+      "utr": "HDFC260326393976",
+      "created_at": 1774828800
+    },
+    {
+      "id": "setl_ois8ivtadl1zdw",
+      "entity": "settlement",
+      "amount": 1299667,
+      "status": "processed",
+      "fees": 41479,
+      "tax": 7466,
+      "utr": "ICIC260326917357",
+      "created_at": 1774828800
+    },
+    {
+      "id": "setl_qt8cj3nzb8s59u",
+      "entity": "settlement",
+      "amount": 1607984,
+      "status": "processed",
+      "fees": 1073,
+      "tax": 193,
+      "utr": "KKBK260326129941",
+      "created_at": 1774828800
+    },
+    {
+      "id": "setl_rb6w4dofou39m2",
+      "entity": "settlement",
+      "amount": 2264186,
+      "status": "processed",
+      "fees": 29842,
+      "tax": 5372,
+      "utr": "UTIB260326959376",
+      "created_at": 1774828800
+    },
+    {
+      "id": "setl_seljn4npam80q8",
+      "entity": "settlement",
+      "amount": 1084201,
+      "status": "processed",
+      "fees": 17330,
+      "tax": 3119,
+      "utr": "UTIB260326209869",
+      "created_at": 1774828800
+    },
+    {
+      "id": "setl_sf4fup8pxa818h",
+      "entity": "settlement",
+      "amount": 678625,
+      "status": "processed",
+      "fees": 17945,
+      "tax": 3230,
+      "utr": "ICIC260326677297",
+      "created_at": 1774828800
+    },
+    {
+      "id": "setl_tiv0ogpfb4vudq",
+      "entity": "settlement",
+      "amount": 584680,
+      "status": "processed",
+      "fees": 12898,
+      "tax": 2322,
+      "utr": "SBIN260326562469",
+      "created_at": 1774828800
+    },
+    {
+      "id": "setl_vhyu8hhexotyfw",
+      "entity": "settlement",
+      "amount": 11104648,
+      "status": "processed",
+      "fees": 227319,
+      "tax": 40917,
+      "utr": "HDFC260326727699",
+      "created_at": 1774828800
+    },
+    {
+      "id": "setl_1plxgroxsgfdfy",
+      "entity": "settlement",
+      "amount": 634593,
+      "status": "processed",
+      "fees": 12845,
+      "tax": 2312,
+      "utr": "ICIC260329660020",
+      "created_at": 1774915200
+    },
+    {
+      "id": "setl_2erya3in7em8gs",
+      "entity": "settlement",
+      "amount": 7320593,
+      "status": "processed",
+      "fees": 258297,
+      "tax": 46493,
+      "utr": "KKBK260328851048",
+      "created_at": 1774915200
+    },
+    {
+      "id": "setl_5uhm9zk1agovaw",
+      "entity": "settlement",
+      "amount": 1349800,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "UTIB260327451325",
+      "created_at": 1774915200
+    },
+    {
+      "id": "setl_8letul8wz0oecc",
+      "entity": "settlement",
+      "amount": 1291855,
+      "status": "processed",
+      "fees": 6648,
+      "tax": 1197,
+      "utr": "SBIN260327836793",
+      "created_at": 1774915200
+    },
+    {
+      "id": "setl_9pfpg7g1h1v9d2",
+      "entity": "settlement",
+      "amount": 126604,
+      "status": "processed",
+      "fees": 2793,
+      "tax": 503,
+      "utr": "HDFC260329084479",
+      "created_at": 1774915200
+    },
+    {
+      "id": "setl_btiddh3gx7x9tp",
+      "entity": "settlement",
+      "amount": 6530175,
+      "status": "processed",
+      "fees": 6448,
+      "tax": 1161,
+      "utr": "SBIN260327293934",
+      "created_at": 1774915200
+    },
+    {
+      "id": "setl_c36zcft9hl1s9k",
+      "entity": "settlement",
+      "amount": 1657379,
+      "status": "processed",
+      "fees": 14509,
+      "tax": 2612,
+      "utr": "HDFC260327908789",
+      "created_at": 1774915200
+    },
+    {
+      "id": "setl_d26h750cl90x1g",
+      "entity": "settlement",
+      "amount": 549800,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "HDFC260329513857",
+      "created_at": 1774915200
+    },
+    {
+      "id": "setl_esaykspzuhfvuw",
+      "entity": "settlement",
+      "amount": 79900,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "SBIN260328876047",
+      "created_at": 1774915200
+    },
+    {
+      "id": "setl_ez4kggg0r1avds",
+      "entity": "settlement",
+      "amount": 873446,
+      "status": "processed",
+      "fees": 9241,
+      "tax": 1663,
+      "utr": "HDFC260329863109",
+      "created_at": 1774915200
+    },
+    {
+      "id": "setl_hvaslxpfk5l6j7",
+      "entity": "settlement",
+      "amount": 3787157,
+      "status": "processed",
+      "fees": 67134,
+      "tax": 12085,
+      "utr": "HDFC260327412092",
+      "created_at": 1774915200
+    },
+    {
+      "id": "setl_i4avzb56xrzpna",
+      "entity": "settlement",
+      "amount": 12801258,
+      "status": "processed",
+      "fees": 253787,
+      "tax": 45682,
+      "utr": "SBIN260327206122",
+      "created_at": 1774915200
+    },
+    {
+      "id": "setl_j5ay8l2mllgpa4",
+      "entity": "settlement",
+      "amount": 3016615,
+      "status": "processed",
+      "fees": 49055,
+      "tax": 8830,
+      "utr": "ICIC260327338560",
+      "created_at": 1774915200
+    },
+    {
+      "id": "setl_kcpp8d2qjcc8aa",
+      "entity": "settlement",
+      "amount": 499900,
+      "status": "processed",
+      "fees": 0,
+      "tax": 0,
+      "utr": "SBIN260327614027",
+      "created_at": 1774915200
+    },
+    {
+      "id": "setl_kwmn4mr38cy6zs",
+      "entity": "settlement",
+      "amount": 1128796,
+      "status": "processed",
+      "fees": 25987,
+      "tax": 4678,
+      "utr": "SBIN260328497168",
+      "created_at": 1774915200
+    },
+    {
+      "id": "setl_lpvcree5n4ohss",
+      "entity": "settlement",
+      "amount": 1498767,
+      "status": "processed",
+      "fees": 25960,
+      "tax": 4673,
+      "utr": "UTIB260327585341",
+      "created_at": 1774915200
+    },
+    {
+      "id": "setl_n0lrucxr0djgl5",
+      "entity": "settlement",
+      "amount": 586450,
+      "status": "processed",
+      "fees": 11398,
+      "tax": 2052,
+      "utr": "SBIN260327254096",
+      "created_at": 1774915200
+    },
+    {
+      "id": "setl_ptzc4voydmb8f5",
+      "entity": "settlement",
+      "amount": 448572,
+      "status": "processed",
+      "fees": 1125,
+      "tax": 203,
+      "utr": "KKBK260327143495",
+      "created_at": 1774915200
+    },
+    {
+      "id": "setl_qdk53k9phokal4",
+      "entity": "settlement",
+      "amount": 994590,
+      "status": "processed",
+      "fees": 4500,
+      "tax": 810,
+      "utr": "SBIN260327321146",
+      "created_at": 1774915200
+    },
+    {
+      "id": "setl_srzkmjc2nd6jew",
+      "entity": "settlement",
+      "amount": 1584210,
+      "status": "processed",
+      "fees": 34102,
+      "tax": 6138,
+      "utr": "SBIN260327614043",
+      "created_at": 1774915200
+    },
+    {
+      "id": "setl_sy1up1dnmviya6",
+      "entity": "settlement",
+      "amount": 1034580,
+      "status": "processed",
+      "fees": 12898,
+      "tax": 2322,
+      "utr": "ICIC260328288912",
+      "created_at": 1774915200
+    },
+    {
+      "id": "setl_ubnv9112949eu7",
+      "entity": "settlement",
+      "amount": 486509,
+      "status": "processed",
+      "fees": 11348,
+      "tax": 2043,
+      "utr": "KKBK260327188492",
+      "created_at": 1774915200
+    },
+    {
+      "id": "setl_yo0fa5sifsdaof",
+      "entity": "settlement",
+      "amount": 274828,
+      "status": "processed",
+      "fees": 4298,
+      "tax": 774,
+      "utr": "SBIN260327127123",
+      "created_at": 1774915200
+    },
+    {
+      "id": "setl_069mptvhj8stc6",
+      "entity": "settlement",
+      "amount": 438486,
+      "status": "processed",
+      "fees": 9673,
+      "tax": 1741,
+      "utr": "HDFC260330816495",
+      "created_at": 1775001600
+    },
+    {
+      "id": "setl_9bzlo2y108mrxi",
+      "entity": "settlement",
+      "amount": 4505589,
+      "status": "processed",
+      "fees": 97891,
+      "tax": 17621,
+      "utr": "HDFC260330881202",
+      "created_at": 1775001600
+    },
+    {
+      "id": "setl_9ji2dfimbfwkdg",
+      "entity": "settlement",
+      "amount": 293176,
+      "status": "processed",
+      "fees": 5698,
+      "tax": 1026,
+      "utr": "KKBK260330501276",
+      "created_at": 1775001600
+    },
+    {
+      "id": "setl_a3cwxu0sad3b4a",
+      "entity": "settlement",
+      "amount": 1266823,
+      "status": "processed",
+      "fees": 27946,
+      "tax": 5031,
+      "utr": "KKBK260330717922",
+      "created_at": 1775001600
+    },
+    {
+      "id": "setl_g7kmz0esf1g8zl",
+      "entity": "settlement",
+      "amount": 243560,
+      "status": "processed",
+      "fees": 5373,
+      "tax": 967,
+      "utr": "ICIC260330077230",
+      "created_at": 1775001600
+    },
+    {
+      "id": "setl_l28oug1ufocka9",
+      "entity": "settlement",
+      "amount": 497245,
+      "status": "processed",
+      "fees": 2250,
+      "tax": 405,
+      "utr": "UTIB260330939120",
+      "created_at": 1775001600
+    },
+    {
+      "id": "setl_m84kg2eugszbmj",
+      "entity": "settlement",
+      "amount": 11572057,
+      "status": "processed",
+      "fees": 2848,
+      "tax": 513,
+      "utr": "ICIC260330279505",
+      "created_at": 1775001600
+    },
+    {
+      "id": "setl_p3miha3gvhke04",
+      "entity": "settlement",
+      "amount": 567154,
+      "status": "processed",
+      "fees": 10717,
+      "tax": 1929,
+      "utr": "ICIC260330078363",
+      "created_at": 1775001600
+    },
+    {
+      "id": "setl_rd325d9wmwm83y",
+      "entity": "settlement",
+      "amount": 341023,
+      "status": "processed",
+      "fees": 7523,
+      "tax": 1354,
+      "utr": "UTIB260330394986",
+      "created_at": 1775001600
+    },
+    {
+      "id": "setl_v7iwvjikaz7g7w",
+      "entity": "settlement",
+      "amount": 3884503,
+      "status": "processed",
+      "fees": 37667,
+      "tax": 6780,
+      "utr": "HDFC260330105189",
+      "created_at": 1775001600
+    },
+    {
+      "id": "setl_vgpw0lamvclhq6",
+      "entity": "settlement",
+      "amount": 6389319,
+      "status": "processed",
+      "fees": 79772,
+      "tax": 14359,
+      "utr": "HDFC260330721651",
+      "created_at": 1775001600
+    }
+  ]
+}

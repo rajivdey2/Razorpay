@@ -1,0 +1,1965 @@
+{
+  "generated_at": "2026-08-31T18:48:21+00:00",
+  "train": {
+    "seed": 7,
+    "fingerprint": "64326b4b836746c5"
+  },
+  "eval": {
+    "seed": 42,
+    "fingerprint": "372a49a344090701"
+  },
+  "rate_multiplier": 1.0,
+  "target_precision": 0.995,
+  "derived_threshold": 0.667531328320802,
+  "threshold_report": {
+    "method": "lowest_threshold_meeting_target_precision",
+    "target_precision": 0.995,
+    "target_met": true,
+    "chosen": 0.6675,
+    "precision_at_chosen": 1.0,
+    "recall_at_chosen": 0.8968,
+    "confirmed_at_chosen": 113,
+    "min_confirmed_required": 12,
+    "train_rows": 2276,
+    "calibration_rows": 1034,
+    "threshold_rows": 829,
+    "positive_rate": 0.1522
+  },
+  "materiality_paise": 5000000,
+  "tier3_band": [
+    0.4,
+    0.75
+  ],
+  "tier3_arbiter": "claude",
+  "tier3": {
+    "eligible": 5,
+    "calls_made": 5,
+    "proposed_match": 1,
+    "insufficient_evidence": 4,
+    "clamped": 0,
+    "errors": 0,
+    "skipped_above_materiality": 110,
+    "skipped_outside_band": 886,
+    "capped_not_arbitrated": 0,
+    "singleton_groups": 4,
+    "chose_unselected_rival": 0,
+    "tokens_in": 8646,
+    "tokens_out": 1492,
+    "arbiter": "claude_arbiter",
+    "wall_ms": 31072.7,
+    "error_kinds": {}
+  },
+  "calibration": {
+    "n": 479,
+    "brier": 0.006698442788520121,
+    "ece": 0.014808768267223386,
+    "reliability": [
+      {
+        "bin_center": 0.05,
+        "mean_predicted": 0.0202,
+        "fraction_positive": 0.0,
+        "count": 3
+      },
+      {
+        "bin_center": 0.65,
+        "mean_predicted": 0.6737,
+        "fraction_positive": 0.8,
+        "count": 10
+      },
+      {
+        "bin_center": 0.75,
+        "mean_predicted": 0.7432,
+        "fraction_positive": 1.0,
+        "count": 22
+      },
+      {
+        "bin_center": 0.85,
+        "mean_predicted": 0.8798,
+        "fraction_positive": 1.0,
+        "count": 1
+      },
+      {
+        "bin_center": 0.95,
+        "mean_predicted": 1.0,
+        "fraction_positive": 1.0,
+        "count": 443
+      }
+    ],
+    "by_slice": {
+      "gateway_bank/narration_noise": {
+        "n": 33,
+        "positives": 33,
+        "mean_confidence": 0.9687,
+        "accuracy": 1.0,
+        "brier": 0.0081,
+        "ece": 0.0313
+      },
+      "gateway_bank/split_settlement": {
+        "n": 9,
+        "positives": 9,
+        "mean_confidence": 1.0,
+        "accuracy": 1.0,
+        "brier": 0.0,
+        "ece": 0.0
+      },
+      "gateway_books/batch_settlement": {
+        "n": 98,
+        "positives": 98,
+        "mean_confidence": 1.0,
+        "accuracy": 1.0,
+        "brier": 0.0,
+        "ece": 0.0
+      },
+      "gateway_books/clean": {
+        "n": 17,
+        "positives": 17,
+        "mean_confidence": 1.0,
+        "accuracy": 1.0,
+        "brier": 0.0,
+        "ece": 0.0
+      },
+      "gateway_books/duplicate_bank_entry": {
+        "n": 21,
+        "positives": 21,
+        "mean_confidence": 0.9857,
+        "accuracy": 1.0,
+        "brier": 0.0043,
+        "ece": 0.0143
+      },
+      "gateway_books/fee_tax_drift": {
+        "n": 22,
+        "positives": 22,
+        "mean_confidence": 1.0,
+        "accuracy": 1.0,
+        "brier": 0.0,
+        "ece": 0.0
+      },
+      "gateway_books/fx_mismatch": {
+        "n": 60,
+        "positives": 60,
+        "mean_confidence": 0.9522,
+        "accuracy": 1.0,
+        "brier": 0.0131,
+        "ece": 0.0478
+      },
+      "gateway_books/missing_settlement": {
+        "n": 10,
+        "positives": 10,
+        "mean_confidence": 0.975,
+        "accuracy": 1.0,
+        "brier": 0.0063,
+        "ece": 0.025
+      },
+      "gateway_books/narration_noise": {
+        "n": 92,
+        "positives": 90,
+        "mean_confidence": 0.9834,
+        "accuracy": 0.9783,
+        "brier": 0.0056,
+        "ece": 0.0106
+      },
+      "gateway_books/refund_netting": {
+        "n": 40,
+        "positives": 40,
+        "mean_confidence": 0.962,
+        "accuracy": 1.0,
+        "brier": 0.0117,
+        "ece": 0.038
+      },
+      "gateway_books/split_settlement": {
+        "n": 37,
+        "positives": 37,
+        "mean_confidence": 0.9716,
+        "accuracy": 1.0,
+        "brier": 0.0075,
+        "ece": 0.0284
+      },
+      "gateway_books/tds_mismatch": {
+        "n": 21,
+        "positives": 21,
+        "mean_confidence": 0.9638,
+        "accuracy": 1.0,
+        "brier": 0.0092,
+        "ece": 0.0362
+      },
+      "gateway_books/timing_drift": {
+        "n": 8,
+        "positives": 8,
+        "mean_confidence": 1.0,
+        "accuracy": 1.0,
+        "brier": 0.0,
+        "ece": 0.0
+      }
+    }
+  },
+  "methods": [
+    {
+      "label": "Naive rules baseline",
+      "scorer": "rules_only",
+      "threshold": null,
+      "wall_ms": 17.2,
+      "throughput_txn_per_s": 92680.9,
+      "completeness": {
+        "complete": null
+      },
+      "legs": {
+        "gateway_bank": {
+          "leg": "gateway_bank",
+          "all_proposed_or_confirmed": {
+            "tp": 220,
+            "fp": 28,
+            "fn": 89,
+            "precision": 0.8871,
+            "recall": 0.712,
+            "f1": 0.7899
+          },
+          "auto_confirmed_only": {
+            "tp": 220,
+            "fp": 28,
+            "fn": 89,
+            "precision": 0.8871,
+            "recall": 0.712,
+            "f1": 0.7899
+          },
+          "money": {
+            "reconciled_paise": 478810788,
+            "total_paise": 583916280,
+            "fraction_reconciled": 0.82,
+            "misreconciled_paise": 41573538
+          },
+          "silent_wrong_matches": 28,
+          "silent_wrong_paise": 41756593,
+          "by_break_pattern": {
+            "batch_settlement": {
+              "tp": 42,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "clean": {
+              "tp": 42,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "duplicate_bank_entry": {
+              "tp": 0,
+              "fp": 13,
+              "fn": 13,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            "fee_tax_drift": {
+              "tp": 22,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "fx_mismatch": {
+              "tp": 26,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.963,
+              "f1": 0.9811
+            },
+            "narration_noise": {
+              "tp": 51,
+              "fp": 0,
+              "fn": 3,
+              "precision": 1.0,
+              "recall": 0.9444,
+              "f1": 0.9714
+            },
+            "not_in_truth": {
+              "tp": 0,
+              "fp": 3,
+              "fn": 0,
+              "precision": 0.0,
+              "recall": 1.0,
+              "f1": 0.0
+            },
+            "refund_netting": {
+              "tp": 12,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.9231,
+              "f1": 0.96
+            },
+            "split_settlement": {
+              "tp": 0,
+              "fp": 12,
+              "fn": 71,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            "tds_mismatch": {
+              "tp": 14,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "timing_drift": {
+              "tp": 11,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            }
+          },
+          "exception_honesty": {
+            "flagged": 252,
+            "should_be_flagged": 56,
+            "correctly_flagged": 39,
+            "over_flagged": 213,
+            "missed": 17,
+            "precision": 0.1548,
+            "recall": 0.6964,
+            "missed_ids": [
+              "bank:BR0204131627-STALE",
+              "bank:BR0299307266-STALE",
+              "bank:BR0329825167-STALE",
+              "bank:BR2154873749-STALE",
+              "bank:BR2182374891-STALE",
+              "bank:BR3410342705-STALE",
+              "bank:BR3466049405-STALE",
+              "bank:BR6029818745-STALE",
+              "bank:BR7722605236-STALE",
+              "bank:BR8168379763-STALE",
+              "bank:BR8809993805-STALE",
+              "bank:BR9761824190-STALE"
+            ],
+            "reasons_missed": {
+              "reversal_wash_pair": 13,
+              "missing_settlement": 3,
+              "orphan_cash_deposit": 1
+            }
+          }
+        },
+        "gateway_books": {
+          "leg": "gateway_books",
+          "all_proposed_or_confirmed": {
+            "tp": 523,
+            "fp": 322,
+            "fn": 406,
+            "precision": 0.6189,
+            "recall": 0.563,
+            "f1": 0.5896
+          },
+          "auto_confirmed_only": {
+            "tp": 523,
+            "fp": 322,
+            "fn": 406,
+            "precision": 0.6189,
+            "recall": 0.563,
+            "f1": 0.5896
+          },
+          "money": {
+            "reconciled_paise": 399472101,
+            "total_paise": 611796781,
+            "fraction_reconciled": 0.6529,
+            "misreconciled_paise": 213048866
+          },
+          "silent_wrong_matches": 322,
+          "silent_wrong_paise": 220524105,
+          "by_break_pattern": {
+            "batch_settlement": {
+              "tp": 113,
+              "fp": 87,
+              "fn": 98,
+              "precision": 0.565,
+              "recall": 0.5355,
+              "f1": 0.5499
+            },
+            "clean": {
+              "tp": 34,
+              "fp": 8,
+              "fn": 8,
+              "precision": 0.8095,
+              "recall": 0.8095,
+              "f1": 0.8095
+            },
+            "duplicate_bank_entry": {
+              "tp": 20,
+              "fp": 18,
+              "fn": 21,
+              "precision": 0.5263,
+              "recall": 0.4878,
+              "f1": 0.5063
+            },
+            "fee_tax_drift": {
+              "tp": 31,
+              "fp": 21,
+              "fn": 21,
+              "precision": 0.5962,
+              "recall": 0.5962,
+              "f1": 0.5962
+            },
+            "fx_mismatch": {
+              "tp": 89,
+              "fp": 40,
+              "fn": 60,
+              "precision": 0.6899,
+              "recall": 0.5973,
+              "f1": 0.6403
+            },
+            "missing_settlement": {
+              "tp": 12,
+              "fp": 8,
+              "fn": 9,
+              "precision": 0.6,
+              "recall": 0.5714,
+              "f1": 0.5854
+            },
+            "narration_noise": {
+              "tp": 107,
+              "fp": 70,
+              "fn": 86,
+              "precision": 0.6045,
+              "recall": 0.5544,
+              "f1": 0.5784
+            },
+            "not_in_truth": {
+              "tp": 0,
+              "fp": 21,
+              "fn": 0,
+              "precision": 0.0,
+              "recall": 1.0,
+              "f1": 0.0
+            },
+            "refund_netting": {
+              "tp": 38,
+              "fp": 12,
+              "fn": 39,
+              "precision": 0.76,
+              "recall": 0.4935,
+              "f1": 0.5984
+            },
+            "split_settlement": {
+              "tp": 39,
+              "fp": 24,
+              "fn": 33,
+              "precision": 0.619,
+              "recall": 0.5417,
+              "f1": 0.5778
+            },
+            "tds_mismatch": {
+              "tp": 21,
+              "fp": 6,
+              "fn": 22,
+              "precision": 0.7778,
+              "recall": 0.4884,
+              "f1": 0.6
+            },
+            "timing_drift": {
+              "tp": 19,
+              "fp": 7,
+              "fn": 9,
+              "precision": 0.7308,
+              "recall": 0.6786,
+              "f1": 0.7037
+            }
+          },
+          "exception_honesty": {
+            "flagged": 252,
+            "should_be_flagged": 34,
+            "correctly_flagged": 13,
+            "over_flagged": 239,
+            "missed": 21,
+            "precision": 0.0516,
+            "recall": 0.3824,
+            "missed_ids": [
+              "books:INV-0DRIMR25",
+              "books:INV-0YWM9Q7F",
+              "books:INV-1DE1E163",
+              "books:INV-22M9RWV9",
+              "books:INV-3BA9INCU",
+              "books:INV-68T2A3AH",
+              "books:INV-8KRD5EQY",
+              "books:INV-AS6Y3VG6",
+              "books:INV-EZ24WPFD",
+              "books:INV-H1XAWJ28",
+              "books:INV-HJ755NF4",
+              "books:INV-O09VS9KK"
+            ],
+            "reasons_missed": {
+              "awaiting_settlement": 21
+            }
+          }
+        }
+      },
+      "baseline_stats": {
+        "gateway_bank": {
+          "exact_utr": 200,
+          "exact_amount_date": 22,
+          "greedy_nearest": 26,
+          "settlements_unmatched": 33
+        },
+        "gateway_books": {
+          "order_key_join": 499,
+          "amount_date_heuristic": 346,
+          "entries_unmatched": 118
+        }
+      },
+      "exception_honesty_overall": {
+        "flagged": 252,
+        "should_be_flagged": 90,
+        "correctly_flagged": 52,
+        "over_flagged": 200,
+        "missed": 38,
+        "precision": 0.2063,
+        "recall": 0.5778,
+        "missed_ids": [
+          "bank:BR0204131627-STALE",
+          "bank:BR0299307266-STALE",
+          "bank:BR0329825167-STALE",
+          "bank:BR2154873749-STALE",
+          "bank:BR2182374891-STALE",
+          "bank:BR3410342705-STALE",
+          "bank:BR3466049405-STALE",
+          "bank:BR6029818745-STALE",
+          "bank:BR7722605236-STALE",
+          "bank:BR8168379763-STALE",
+          "bank:BR8809993805-STALE",
+          "bank:BR9761824190-STALE"
+        ],
+        "reasons_missed": {
+          "awaiting_settlement": 21,
+          "reversal_wash_pair": 13,
+          "missing_settlement": 3,
+          "orphan_cash_deposit": 1
+        }
+      }
+    },
+    {
+      "label": "GlassLedger tier 1 only",
+      "scorer": "dummy_heuristic",
+      "threshold": 0.85,
+      "wall_ms": 48.2,
+      "throughput_txn_per_s": 33051.3,
+      "completeness": {
+        "ingested": 1593,
+        "accounted_for": 1593,
+        "complete": true
+      },
+      "legs": {
+        "gateway_bank": {
+          "leg": "gateway_bank",
+          "all_proposed_or_confirmed": {
+            "tp": 239,
+            "fp": 0,
+            "fn": 70,
+            "precision": 1.0,
+            "recall": 0.7735,
+            "f1": 0.8723
+          },
+          "auto_confirmed_only": {
+            "tp": 239,
+            "fp": 0,
+            "fn": 70,
+            "precision": 1.0,
+            "recall": 0.7735,
+            "f1": 0.8723
+          },
+          "money": {
+            "reconciled_paise": 458015973,
+            "total_paise": 583916280,
+            "fraction_reconciled": 0.7844,
+            "misreconciled_paise": 0
+          },
+          "silent_wrong_matches": 0,
+          "silent_wrong_paise": 0,
+          "by_break_pattern": {
+            "batch_settlement": {
+              "tp": 42,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "clean": {
+              "tp": 42,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "duplicate_bank_entry": {
+              "tp": 10,
+              "fp": 0,
+              "fn": 3,
+              "precision": 1.0,
+              "recall": 0.7692,
+              "f1": 0.8696
+            },
+            "fee_tax_drift": {
+              "tp": 22,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "fx_mismatch": {
+              "tp": 24,
+              "fp": 0,
+              "fn": 3,
+              "precision": 1.0,
+              "recall": 0.8889,
+              "f1": 0.9412
+            },
+            "narration_noise": {
+              "tp": 21,
+              "fp": 0,
+              "fn": 33,
+              "precision": 1.0,
+              "recall": 0.3889,
+              "f1": 0.56
+            },
+            "refund_netting": {
+              "tp": 11,
+              "fp": 0,
+              "fn": 2,
+              "precision": 1.0,
+              "recall": 0.8462,
+              "f1": 0.9167
+            },
+            "split_settlement": {
+              "tp": 42,
+              "fp": 0,
+              "fn": 29,
+              "precision": 1.0,
+              "recall": 0.5915,
+              "f1": 0.7434
+            },
+            "tds_mismatch": {
+              "tp": 14,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "timing_drift": {
+              "tp": 11,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            }
+          },
+          "exception_honesty": {
+            "flagged": 178,
+            "should_be_flagged": 56,
+            "correctly_flagged": 56,
+            "over_flagged": 122,
+            "missed": 0,
+            "precision": 0.3146,
+            "recall": 1.0,
+            "missed_ids": [],
+            "reasons_missed": {}
+          },
+          "exceptions": {
+            "count": 165,
+            "amount_paise_outstanding": 351932020,
+            "high_priority_count": 165,
+            "by_category": {
+              "orphan_bank_credit": 84,
+              "missing_settlement": 68,
+              "reversal_wash_pair": 13
+            }
+          },
+          "policy": {
+            "considered": 213,
+            "auto_confirmed": 213,
+            "proposed": 0,
+            "rejected": 0,
+            "immaterial": 0,
+            "tier1_above_materiality": 26,
+            "tier1_above_materiality_paise": 234365591,
+            "gated_by_materiality": 0
+          }
+        },
+        "gateway_books": {
+          "leg": "gateway_books",
+          "all_proposed_or_confirmed": {
+            "tp": 499,
+            "fp": 0,
+            "fn": 430,
+            "precision": 1.0,
+            "recall": 0.5371,
+            "f1": 0.6989
+          },
+          "auto_confirmed_only": {
+            "tp": 499,
+            "fp": 0,
+            "fn": 430,
+            "precision": 1.0,
+            "recall": 0.5371,
+            "f1": 0.6989
+          },
+          "money": {
+            "reconciled_paise": 347316940,
+            "total_paise": 611796781,
+            "fraction_reconciled": 0.5677,
+            "misreconciled_paise": 0
+          },
+          "silent_wrong_matches": 0,
+          "silent_wrong_paise": 0,
+          "by_break_pattern": {
+            "batch_settlement": {
+              "tp": 113,
+              "fp": 0,
+              "fn": 98,
+              "precision": 1.0,
+              "recall": 0.5355,
+              "f1": 0.6975
+            },
+            "clean": {
+              "tp": 25,
+              "fp": 0,
+              "fn": 17,
+              "precision": 1.0,
+              "recall": 0.5952,
+              "f1": 0.7463
+            },
+            "duplicate_bank_entry": {
+              "tp": 20,
+              "fp": 0,
+              "fn": 21,
+              "precision": 1.0,
+              "recall": 0.4878,
+              "f1": 0.6557
+            },
+            "fee_tax_drift": {
+              "tp": 30,
+              "fp": 0,
+              "fn": 22,
+              "precision": 1.0,
+              "recall": 0.5769,
+              "f1": 0.7317
+            },
+            "fx_mismatch": {
+              "tp": 88,
+              "fp": 0,
+              "fn": 61,
+              "precision": 1.0,
+              "recall": 0.5906,
+              "f1": 0.7426
+            },
+            "missing_settlement": {
+              "tp": 11,
+              "fp": 0,
+              "fn": 10,
+              "precision": 1.0,
+              "recall": 0.5238,
+              "f1": 0.6875
+            },
+            "narration_noise": {
+              "tp": 101,
+              "fp": 0,
+              "fn": 92,
+              "precision": 1.0,
+              "recall": 0.5233,
+              "f1": 0.6871
+            },
+            "refund_netting": {
+              "tp": 37,
+              "fp": 0,
+              "fn": 40,
+              "precision": 1.0,
+              "recall": 0.4805,
+              "f1": 0.6491
+            },
+            "split_settlement": {
+              "tp": 35,
+              "fp": 0,
+              "fn": 37,
+              "precision": 1.0,
+              "recall": 0.4861,
+              "f1": 0.6542
+            },
+            "tds_mismatch": {
+              "tp": 20,
+              "fp": 0,
+              "fn": 23,
+              "precision": 1.0,
+              "recall": 0.4651,
+              "f1": 0.6349
+            },
+            "timing_drift": {
+              "tp": 19,
+              "fp": 0,
+              "fn": 9,
+              "precision": 1.0,
+              "recall": 0.6786,
+              "f1": 0.8085
+            }
+          },
+          "exception_honesty": {
+            "flagged": 464,
+            "should_be_flagged": 34,
+            "correctly_flagged": 34,
+            "over_flagged": 430,
+            "missed": 0,
+            "precision": 0.0733,
+            "recall": 1.0,
+            "missed_ids": [],
+            "reasons_missed": {}
+          },
+          "exceptions": {
+            "count": 464,
+            "amount_paise_outstanding": 288563176,
+            "high_priority_count": 464,
+            "by_category": {
+              "awaiting_settlement": 464
+            }
+          },
+          "policy": {
+            "considered": 499,
+            "auto_confirmed": 499,
+            "proposed": 0,
+            "rejected": 0,
+            "immaterial": 0
+          }
+        }
+      },
+      "exception_honesty_overall": {
+        "flagged": 642,
+        "should_be_flagged": 90,
+        "correctly_flagged": 90,
+        "over_flagged": 552,
+        "missed": 0,
+        "precision": 0.1402,
+        "recall": 1.0,
+        "missed_ids": [],
+        "reasons_missed": {}
+      },
+      "tier3": null
+    },
+    {
+      "label": "GlassLedger tier 1+2 (heuristic)",
+      "scorer": "dummy_heuristic",
+      "threshold": 0.85,
+      "wall_ms": 614.1,
+      "throughput_txn_per_s": 2593.9,
+      "completeness": {
+        "ingested": 1593,
+        "accounted_for": 1593,
+        "complete": true
+      },
+      "legs": {
+        "gateway_bank": {
+          "leg": "gateway_bank",
+          "all_proposed_or_confirmed": {
+            "tp": 306,
+            "fp": 0,
+            "fn": 3,
+            "precision": 1.0,
+            "recall": 0.9903,
+            "f1": 0.9951
+          },
+          "auto_confirmed_only": {
+            "tp": 263,
+            "fp": 0,
+            "fn": 46,
+            "precision": 1.0,
+            "recall": 0.8511,
+            "f1": 0.9196
+          },
+          "money": {
+            "reconciled_paise": 583116380,
+            "total_paise": 583916280,
+            "fraction_reconciled": 0.9986,
+            "misreconciled_paise": 0
+          },
+          "silent_wrong_matches": 0,
+          "silent_wrong_paise": 0,
+          "by_break_pattern": {
+            "batch_settlement": {
+              "tp": 42,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "clean": {
+              "tp": 42,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "duplicate_bank_entry": {
+              "tp": 13,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "fee_tax_drift": {
+              "tp": 22,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "fx_mismatch": {
+              "tp": 27,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "narration_noise": {
+              "tp": 54,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "refund_netting": {
+              "tp": 13,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "split_settlement": {
+              "tp": 68,
+              "fp": 0,
+              "fn": 3,
+              "precision": 1.0,
+              "recall": 0.9577,
+              "f1": 0.9784
+            },
+            "tds_mismatch": {
+              "tp": 14,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "timing_drift": {
+              "tp": 11,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            }
+          },
+          "exception_honesty": {
+            "flagged": 60,
+            "should_be_flagged": 56,
+            "correctly_flagged": 56,
+            "over_flagged": 4,
+            "missed": 0,
+            "precision": 0.9333,
+            "recall": 1.0,
+            "missed_ids": [],
+            "reasons_missed": {}
+          },
+          "exceptions": {
+            "count": 47,
+            "amount_paise_outstanding": 101731206,
+            "high_priority_count": 47,
+            "by_category": {
+              "orphan_bank_credit": 15,
+              "reversal_wash_pair": 13,
+              "missing_settlement": 12,
+              "amount_proximity": 7
+            }
+          },
+          "policy": {
+            "considered": 264,
+            "auto_confirmed": 222,
+            "proposed": 42,
+            "rejected": 0,
+            "immaterial": 0,
+            "tier1_above_materiality": 26,
+            "tier1_above_materiality_paise": 234365591,
+            "gated_by_materiality": 8
+          }
+        },
+        "gateway_books": {
+          "leg": "gateway_books",
+          "all_proposed_or_confirmed": {
+            "tp": 884,
+            "fp": 56,
+            "fn": 45,
+            "precision": 0.9404,
+            "recall": 0.9516,
+            "f1": 0.946
+          },
+          "auto_confirmed_only": {
+            "tp": 499,
+            "fp": 0,
+            "fn": 430,
+            "precision": 1.0,
+            "recall": 0.5371,
+            "f1": 0.6989
+          },
+          "money": {
+            "reconciled_paise": 599819215,
+            "total_paise": 611796781,
+            "fraction_reconciled": 0.9804,
+            "misreconciled_paise": 13445445
+          },
+          "silent_wrong_matches": 0,
+          "silent_wrong_paise": 0,
+          "by_break_pattern": {
+            "batch_settlement": {
+              "tp": 196,
+              "fp": 12,
+              "fn": 15,
+              "precision": 0.9423,
+              "recall": 0.9289,
+              "f1": 0.9356
+            },
+            "clean": {
+              "tp": 40,
+              "fp": 1,
+              "fn": 2,
+              "precision": 0.9756,
+              "recall": 0.9524,
+              "f1": 0.9639
+            },
+            "duplicate_bank_entry": {
+              "tp": 40,
+              "fp": 1,
+              "fn": 1,
+              "precision": 0.9756,
+              "recall": 0.9756,
+              "f1": 0.9756
+            },
+            "fee_tax_drift": {
+              "tp": 48,
+              "fp": 1,
+              "fn": 4,
+              "precision": 0.9796,
+              "recall": 0.9231,
+              "f1": 0.9505
+            },
+            "fx_mismatch": {
+              "tp": 144,
+              "fp": 5,
+              "fn": 5,
+              "precision": 0.9664,
+              "recall": 0.9664,
+              "f1": 0.9664
+            },
+            "missing_settlement": {
+              "tp": 19,
+              "fp": 1,
+              "fn": 2,
+              "precision": 0.95,
+              "recall": 0.9048,
+              "f1": 0.9268
+            },
+            "narration_noise": {
+              "tp": 183,
+              "fp": 8,
+              "fn": 10,
+              "precision": 0.9581,
+              "recall": 0.9482,
+              "f1": 0.9531
+            },
+            "not_in_truth": {
+              "tp": 0,
+              "fp": 23,
+              "fn": 0,
+              "precision": 0.0,
+              "recall": 1.0,
+              "f1": 0.0
+            },
+            "refund_netting": {
+              "tp": 75,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.974,
+              "recall": 0.974,
+              "f1": 0.974
+            },
+            "split_settlement": {
+              "tp": 70,
+              "fp": 2,
+              "fn": 2,
+              "precision": 0.9722,
+              "recall": 0.9722,
+              "f1": 0.9722
+            },
+            "tds_mismatch": {
+              "tp": 42,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.9767,
+              "f1": 0.9882
+            },
+            "timing_drift": {
+              "tp": 27,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.9643,
+              "f1": 0.9818
+            }
+          },
+          "exception_honesty": {
+            "flagged": 23,
+            "should_be_flagged": 34,
+            "correctly_flagged": 11,
+            "over_flagged": 12,
+            "missed": 23,
+            "precision": 0.4783,
+            "recall": 0.3235,
+            "missed_ids": [
+              "books:INV-0DRIMR25",
+              "books:INV-1DE1E163",
+              "books:INV-3BA9INCU",
+              "books:INV-3DXVL5PV",
+              "books:INV-68T2A3AH",
+              "books:INV-8KRD5EQY",
+              "books:INV-EM0TPI70",
+              "books:INV-EZ24WPFD",
+              "books:INV-H1XAWJ28",
+              "books:INV-K4FPL3X2",
+              "books:INV-LN6BGUAX",
+              "books:INV-MLVAK9W9"
+            ],
+            "reasons_missed": {
+              "awaiting_settlement": 23
+            }
+          },
+          "exceptions": {
+            "count": 23,
+            "amount_paise_outstanding": 22615456,
+            "high_priority_count": 23,
+            "by_category": {
+              "awaiting_settlement": 23
+            }
+          },
+          "policy": {
+            "considered": 937,
+            "auto_confirmed": 499,
+            "proposed": 438,
+            "rejected": 0,
+            "immaterial": 0
+          }
+        }
+      },
+      "exception_honesty_overall": {
+        "flagged": 83,
+        "should_be_flagged": 90,
+        "correctly_flagged": 67,
+        "over_flagged": 16,
+        "missed": 23,
+        "precision": 0.8072,
+        "recall": 0.7444,
+        "missed_ids": [
+          "books:INV-0DRIMR25",
+          "books:INV-1DE1E163",
+          "books:INV-3BA9INCU",
+          "books:INV-3DXVL5PV",
+          "books:INV-68T2A3AH",
+          "books:INV-8KRD5EQY",
+          "books:INV-EM0TPI70",
+          "books:INV-EZ24WPFD",
+          "books:INV-H1XAWJ28",
+          "books:INV-K4FPL3X2",
+          "books:INV-LN6BGUAX",
+          "books:INV-MLVAK9W9"
+        ],
+        "reasons_missed": {
+          "awaiting_settlement": 23
+        }
+      },
+      "tier3": null
+    },
+    {
+      "label": "GlassLedger tier 1+2 (calibrated)",
+      "scorer": "calibrated_gbm",
+      "threshold": 0.6675,
+      "wall_ms": 503.8,
+      "throughput_txn_per_s": 3162.3,
+      "completeness": {
+        "ingested": 1593,
+        "accounted_for": 1593,
+        "complete": true
+      },
+      "legs": {
+        "gateway_bank": {
+          "leg": "gateway_bank",
+          "all_proposed_or_confirmed": {
+            "tp": 304,
+            "fp": 1,
+            "fn": 5,
+            "precision": 0.9967,
+            "recall": 0.9838,
+            "f1": 0.9902
+          },
+          "auto_confirmed_only": {
+            "tp": 294,
+            "fp": 0,
+            "fn": 15,
+            "precision": 1.0,
+            "recall": 0.9515,
+            "f1": 0.9751
+          },
+          "money": {
+            "reconciled_paise": 582283699,
+            "total_paise": 583916280,
+            "fraction_reconciled": 0.9972,
+            "misreconciled_paise": 249900
+          },
+          "silent_wrong_matches": 0,
+          "silent_wrong_paise": 0,
+          "by_break_pattern": {
+            "batch_settlement": {
+              "tp": 42,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "clean": {
+              "tp": 42,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "duplicate_bank_entry": {
+              "tp": 13,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "fee_tax_drift": {
+              "tp": 22,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "fx_mismatch": {
+              "tp": 27,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "narration_noise": {
+              "tp": 54,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "not_in_truth": {
+              "tp": 0,
+              "fp": 1,
+              "fn": 0,
+              "precision": 0.0,
+              "recall": 1.0,
+              "f1": 0.0
+            },
+            "refund_netting": {
+              "tp": 13,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "split_settlement": {
+              "tp": 66,
+              "fp": 0,
+              "fn": 5,
+              "precision": 1.0,
+              "recall": 0.9296,
+              "f1": 0.9635
+            },
+            "tds_mismatch": {
+              "tp": 14,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "timing_drift": {
+              "tp": 11,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            }
+          },
+          "exception_honesty": {
+            "flagged": 61,
+            "should_be_flagged": 56,
+            "correctly_flagged": 55,
+            "over_flagged": 6,
+            "missed": 1,
+            "precision": 0.9016,
+            "recall": 0.9821,
+            "missed_ids": [
+              "gateway:setl_7x6xda71ebvfwb"
+            ],
+            "reasons_missed": {
+              "missing_settlement": 1
+            }
+          },
+          "exceptions": {
+            "count": 48,
+            "amount_paise_outstanding": 102896863,
+            "high_priority_count": 48,
+            "by_category": {
+              "orphan_bank_credit": 17,
+              "reversal_wash_pair": 13,
+              "missing_settlement": 12,
+              "amount_proximity": 6
+            }
+          },
+          "policy": {
+            "considered": 264,
+            "auto_confirmed": 254,
+            "proposed": 10,
+            "rejected": 0,
+            "immaterial": 0,
+            "tier1_above_materiality": 26,
+            "tier1_above_materiality_paise": 234365591,
+            "gated_by_materiality": 8
+          }
+        },
+        "gateway_books": {
+          "leg": "gateway_books",
+          "all_proposed_or_confirmed": {
+            "tp": 925,
+            "fp": 5,
+            "fn": 4,
+            "precision": 0.9946,
+            "recall": 0.9957,
+            "f1": 0.9952
+          },
+          "auto_confirmed_only": {
+            "tp": 908,
+            "fp": 0,
+            "fn": 21,
+            "precision": 1.0,
+            "recall": 0.9774,
+            "f1": 0.9886
+          },
+          "money": {
+            "reconciled_paise": 611476975,
+            "total_paise": 611796781,
+            "fraction_reconciled": 0.9995,
+            "misreconciled_paise": 481040
+          },
+          "silent_wrong_matches": 0,
+          "silent_wrong_paise": 0,
+          "by_break_pattern": {
+            "batch_settlement": {
+              "tp": 211,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "clean": {
+              "tp": 42,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "duplicate_bank_entry": {
+              "tp": 41,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "fee_tax_drift": {
+              "tp": 52,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "fx_mismatch": {
+              "tp": 148,
+              "fp": 1,
+              "fn": 1,
+              "precision": 0.9933,
+              "recall": 0.9933,
+              "f1": 0.9933
+            },
+            "missing_settlement": {
+              "tp": 21,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "narration_noise": {
+              "tp": 193,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "not_in_truth": {
+              "tp": 0,
+              "fp": 4,
+              "fn": 0,
+              "precision": 0.0,
+              "recall": 1.0,
+              "f1": 0.0
+            },
+            "refund_netting": {
+              "tp": 77,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "split_settlement": {
+              "tp": 72,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "tds_mismatch": {
+              "tp": 41,
+              "fp": 0,
+              "fn": 2,
+              "precision": 1.0,
+              "recall": 0.9535,
+              "f1": 0.9762
+            },
+            "timing_drift": {
+              "tp": 27,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.9643,
+              "f1": 0.9818
+            }
+          },
+          "exception_honesty": {
+            "flagged": 33,
+            "should_be_flagged": 34,
+            "correctly_flagged": 30,
+            "over_flagged": 3,
+            "missed": 4,
+            "precision": 0.9091,
+            "recall": 0.8824,
+            "missed_ids": [
+              "books:INV-3DXVL5PV",
+              "books:INV-EM0TPI70",
+              "books:INV-EZ24WPFD",
+              "books:INV-YZXJQYJV"
+            ],
+            "reasons_missed": {
+              "awaiting_settlement": 4
+            }
+          },
+          "exceptions": {
+            "count": 33,
+            "amount_paise_outstanding": 23922101,
+            "high_priority_count": 33,
+            "by_category": {
+              "awaiting_settlement": 33
+            }
+          },
+          "policy": {
+            "considered": 927,
+            "auto_confirmed": 908,
+            "proposed": 19,
+            "rejected": 0,
+            "immaterial": 0
+          }
+        }
+      },
+      "exception_honesty_overall": {
+        "flagged": 94,
+        "should_be_flagged": 90,
+        "correctly_flagged": 85,
+        "over_flagged": 9,
+        "missed": 5,
+        "precision": 0.9043,
+        "recall": 0.9444,
+        "missed_ids": [
+          "books:INV-3DXVL5PV",
+          "books:INV-EM0TPI70",
+          "books:INV-EZ24WPFD",
+          "books:INV-YZXJQYJV",
+          "gateway:setl_7x6xda71ebvfwb"
+        ],
+        "reasons_missed": {
+          "awaiting_settlement": 4,
+          "missing_settlement": 1
+        }
+      },
+      "tier3": null
+    },
+    {
+      "label": "GlassLedger tier 1+2+3 (claude_arbiter)",
+      "scorer": "calibrated_gbm",
+      "threshold": 0.6675,
+      "wall_ms": 31595.0,
+      "throughput_txn_per_s": 50.4,
+      "completeness": {
+        "ingested": 1593,
+        "accounted_for": 1593,
+        "complete": true
+      },
+      "legs": {
+        "gateway_bank": {
+          "leg": "gateway_bank",
+          "all_proposed_or_confirmed": {
+            "tp": 304,
+            "fp": 1,
+            "fn": 5,
+            "precision": 0.9967,
+            "recall": 0.9838,
+            "f1": 0.9902
+          },
+          "auto_confirmed_only": {
+            "tp": 295,
+            "fp": 0,
+            "fn": 14,
+            "precision": 1.0,
+            "recall": 0.9547,
+            "f1": 0.9768
+          },
+          "money": {
+            "reconciled_paise": 582283699,
+            "total_paise": 583916280,
+            "fraction_reconciled": 0.9972,
+            "misreconciled_paise": 249900
+          },
+          "silent_wrong_matches": 0,
+          "silent_wrong_paise": 0,
+          "by_break_pattern": {
+            "batch_settlement": {
+              "tp": 42,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "clean": {
+              "tp": 42,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "duplicate_bank_entry": {
+              "tp": 13,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "fee_tax_drift": {
+              "tp": 22,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "fx_mismatch": {
+              "tp": 27,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "narration_noise": {
+              "tp": 54,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "not_in_truth": {
+              "tp": 0,
+              "fp": 1,
+              "fn": 0,
+              "precision": 0.0,
+              "recall": 1.0,
+              "f1": 0.0
+            },
+            "refund_netting": {
+              "tp": 13,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "split_settlement": {
+              "tp": 66,
+              "fp": 0,
+              "fn": 5,
+              "precision": 1.0,
+              "recall": 0.9296,
+              "f1": 0.9635
+            },
+            "tds_mismatch": {
+              "tp": 14,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "timing_drift": {
+              "tp": 11,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            }
+          },
+          "exception_honesty": {
+            "flagged": 61,
+            "should_be_flagged": 56,
+            "correctly_flagged": 55,
+            "over_flagged": 6,
+            "missed": 1,
+            "precision": 0.9016,
+            "recall": 0.9821,
+            "missed_ids": [
+              "gateway:setl_7x6xda71ebvfwb"
+            ],
+            "reasons_missed": {
+              "missing_settlement": 1
+            }
+          },
+          "exceptions": {
+            "count": 48,
+            "amount_paise_outstanding": 102896863,
+            "high_priority_count": 48,
+            "by_category": {
+              "orphan_bank_credit": 17,
+              "reversal_wash_pair": 13,
+              "missing_settlement": 12,
+              "amount_proximity": 6
+            }
+          },
+          "policy": {
+            "considered": 264,
+            "auto_confirmed": 255,
+            "proposed": 9,
+            "rejected": 0,
+            "immaterial": 0,
+            "tier1_above_materiality": 26,
+            "tier1_above_materiality_paise": 234365591,
+            "gated_by_materiality": 8
+          }
+        },
+        "gateway_books": {
+          "leg": "gateway_books",
+          "all_proposed_or_confirmed": {
+            "tp": 925,
+            "fp": 5,
+            "fn": 4,
+            "precision": 0.9946,
+            "recall": 0.9957,
+            "f1": 0.9952
+          },
+          "auto_confirmed_only": {
+            "tp": 908,
+            "fp": 0,
+            "fn": 21,
+            "precision": 1.0,
+            "recall": 0.9774,
+            "f1": 0.9886
+          },
+          "money": {
+            "reconciled_paise": 611476975,
+            "total_paise": 611796781,
+            "fraction_reconciled": 0.9995,
+            "misreconciled_paise": 481040
+          },
+          "silent_wrong_matches": 0,
+          "silent_wrong_paise": 0,
+          "by_break_pattern": {
+            "batch_settlement": {
+              "tp": 211,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "clean": {
+              "tp": 42,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "duplicate_bank_entry": {
+              "tp": 41,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "fee_tax_drift": {
+              "tp": 52,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "fx_mismatch": {
+              "tp": 148,
+              "fp": 1,
+              "fn": 1,
+              "precision": 0.9933,
+              "recall": 0.9933,
+              "f1": 0.9933
+            },
+            "missing_settlement": {
+              "tp": 21,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "narration_noise": {
+              "tp": 193,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "not_in_truth": {
+              "tp": 0,
+              "fp": 4,
+              "fn": 0,
+              "precision": 0.0,
+              "recall": 1.0,
+              "f1": 0.0
+            },
+            "refund_netting": {
+              "tp": 77,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "split_settlement": {
+              "tp": 72,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "tds_mismatch": {
+              "tp": 41,
+              "fp": 0,
+              "fn": 2,
+              "precision": 1.0,
+              "recall": 0.9535,
+              "f1": 0.9762
+            },
+            "timing_drift": {
+              "tp": 27,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.9643,
+              "f1": 0.9818
+            }
+          },
+          "exception_honesty": {
+            "flagged": 33,
+            "should_be_flagged": 34,
+            "correctly_flagged": 30,
+            "over_flagged": 3,
+            "missed": 4,
+            "precision": 0.9091,
+            "recall": 0.8824,
+            "missed_ids": [
+              "books:INV-3DXVL5PV",
+              "books:INV-EM0TPI70",
+              "books:INV-EZ24WPFD",
+              "books:INV-YZXJQYJV"
+            ],
+            "reasons_missed": {
+              "awaiting_settlement": 4
+            }
+          },
+          "exceptions": {
+            "count": 33,
+            "amount_paise_outstanding": 23922101,
+            "high_priority_count": 33,
+            "by_category": {
+              "awaiting_settlement": 33
+            }
+          },
+          "policy": {
+            "considered": 927,
+            "auto_confirmed": 908,
+            "proposed": 19,
+            "rejected": 0,
+            "immaterial": 0
+          }
+        }
+      },
+      "exception_honesty_overall": {
+        "flagged": 94,
+        "should_be_flagged": 90,
+        "correctly_flagged": 85,
+        "over_flagged": 9,
+        "missed": 5,
+        "precision": 0.9043,
+        "recall": 0.9444,
+        "missed_ids": [
+          "books:INV-3DXVL5PV",
+          "books:INV-EM0TPI70",
+          "books:INV-EZ24WPFD",
+          "books:INV-YZXJQYJV",
+          "gateway:setl_7x6xda71ebvfwb"
+        ],
+        "reasons_missed": {
+          "awaiting_settlement": 4,
+          "missing_settlement": 1
+        }
+      },
+      "tier3": {
+        "eligible": 5,
+        "calls_made": 5,
+        "proposed_match": 1,
+        "insufficient_evidence": 4,
+        "clamped": 0,
+        "errors": 0,
+        "skipped_above_materiality": 110,
+        "skipped_outside_band": 886,
+        "capped_not_arbitrated": 0,
+        "singleton_groups": 4,
+        "chose_unselected_rival": 0,
+        "tokens_in": 8646,
+        "tokens_out": 1492,
+        "arbiter": "claude_arbiter",
+        "wall_ms": 31072.7,
+        "error_kinds": {}
+      }
+    }
+  ],
+  "headline": {
+    "Naive rules baseline": {
+      "match_rate": 0.6001615508885298,
+      "precision": 0.6797804208600183,
+      "recall": 0.6001615508885298,
+      "auto_precision": 0.6797804208600183,
+      "money_fraction": 0.7345264659612177,
+      "misreconciled_paise": 254622404,
+      "silent_wrong": 350,
+      "silent_wrong_paise": 262280698
+    },
+    "GlassLedger tier 1 only": {
+      "match_rate": 0.5961227786752827,
+      "precision": 1.0,
+      "recall": 0.5961227786752827,
+      "auto_precision": 1.0,
+      "money_fraction": 0.6735168655985769,
+      "misreconciled_paise": 0,
+      "silent_wrong": 0,
+      "silent_wrong_paise": 0
+    },
+    "GlassLedger tier 1+2 (heuristic)": {
+      "match_rate": 0.6155088852988692,
+      "precision": 0.9550561797752809,
+      "recall": 0.9612277867528272,
+      "auto_precision": 1.0,
+      "money_fraction": 0.9893139362471177,
+      "misreconciled_paise": 13445445,
+      "silent_wrong": 0,
+      "silent_wrong_paise": 0
+    },
+    "GlassLedger tier 1+2 (calibrated)": {
+      "match_rate": 0.9709208400646203,
+      "precision": 0.9951417004048583,
+      "recall": 0.9927302100161551,
+      "auto_precision": 1.0,
+      "money_fraction": 0.9983671776585202,
+      "misreconciled_paise": 730940,
+      "silent_wrong": 0,
+      "silent_wrong_paise": 0
+    },
+    "GlassLedger tier 1+2+3 (claude_arbiter)": {
+      "match_rate": 0.9717285945072698,
+      "precision": 0.9951417004048583,
+      "recall": 0.9927302100161551,
+      "auto_precision": 1.0,
+      "money_fraction": 0.9983671776585202,
+      "misreconciled_paise": 730940,
+      "silent_wrong": 0,
+      "silent_wrong_paise": 0
+    }
+  }
+}

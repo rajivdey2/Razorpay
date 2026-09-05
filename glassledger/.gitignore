@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.hypothesis/
+data/*.db
+data/*.db-wal
+data/*.db-shm
+data/model.pkl
+shots/
+node_modules/
+
+# Secrets and local environment
+.env
+.venv/
+venv/
+
+# Throwaway diagnostic script
+_probe_arbiter.py
+.env
